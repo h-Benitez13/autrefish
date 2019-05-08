@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/autrefish/static/css/main.795991f2.chunk.css",
+    "main.js": "/autrefish/static/js/main.f0f0336a.chunk.js",
+    "main.js.map": "/autrefish/static/js/main.f0f0336a.chunk.js.map",
+    "runtime~main.js": "/autrefish/static/js/runtime~main.bc43f346.js",
+    "runtime~main.js.map": "/autrefish/static/js/runtime~main.bc43f346.js.map",
+    "static/js/2.dd0fe378.chunk.js": "/autrefish/static/js/2.dd0fe378.chunk.js",
+    "static/js/2.dd0fe378.chunk.js.map": "/autrefish/static/js/2.dd0fe378.chunk.js.map",
+    "index.html": "/autrefish/index.html",
+    "precache-manifest.41f8ded340484bf8cce63193b74984ba.js": "/autrefish/precache-manifest.41f8ded340484bf8cce63193b74984ba.js",
+    "service-worker.js": "/autrefish/service-worker.js",
+    "static/css/main.795991f2.chunk.css.map": "/autrefish/static/css/main.795991f2.chunk.css.map"
+  }
+}
