@@ -6,7 +6,7 @@ export const Navbar = () => {
         <div className="uk-position-top">
             <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar uk-sticky="animation: uk-animation-slide-top">
                 <div className="uk-flex uk-flex-center">
-                    <ul className="uk-navbar-nav uk-light" >
+                    <ul className="uk-navbar-nav uk-light" uk-scrollspy="cls: uk-animation-fade; target: > li ; delay: 300; repeat:true" >
                         <li className="uk-active">
                             <Link to="/Home">
                                 <div className="uk-visible-toggle uk-navbar-item uk-logo" tabIndex="0">
