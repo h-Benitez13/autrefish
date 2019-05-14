@@ -6,12 +6,10 @@ export const Navbar = () => {
         <div className="uk-position-top">
             <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar uk-sticky="animation: uk-animation-slide-top">
                 <div className="uk-flex uk-flex-center">
-                    <ul className="uk-navbar-nav uk-dark" uk-scrollspy="cls: uk-animation-fade; target: > li ; delay: 300; repeat:true" >
+                    <ul className="uk-iconnav uk-dark" uk-scrollspy="cls: uk-animation-fade; target: > li ; delay: 300; repeat:true" >
                         <li className="uk-active">
                             <Link to="/Home">
-                                <div>
-                                    <span uk-icon="icon: home; ratio: 2.5"></span>
-                                </div>
+                                <span uk-icon="icon: home; ratio: 2.5"></span>
                             </Link>
                         </li>
                         <li>
@@ -25,9 +23,24 @@ export const Navbar = () => {
                             </a>
                         </li>
                         <li>
-                            <Link to="/Contact">
-                                <span uk-icon="icon: quote-right; ratio: 2.5"></span>
-                            </Link>
+                            <div className="uk-inline">
+                                
+                                <span uk-icon="icon: album; ratio: 2.5" uk-tooltip="work" style={{"padding": "2.5px"}}></span>
+                                <div uk-dropdown="mode:click">
+                                    <ul className="uk-nav uk-dropdown-nav">
+                                        <Link to="/Work">
+                                        <li className="uk-active"><a href="#">Active</a></li>
+                                        </Link>
+                                        <li><a href="#">Item</a></li>
+                                        <li className="uk-nav-header">Header</li>
+                                        <li><a href="#">Item</a></li>
+                                        <li><a href="#">Item</a></li>
+                                        <li className="uk-nav-divider"></li>
+                                        <li><a href="#">Item</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
                         </li>
                         <li>
                             <Link to="/Portfolio">
@@ -35,10 +48,12 @@ export const Navbar = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/Work">
-                                <span uk-icon="icon: album; ratio: 2.5"></span>
+                            <Link to="/Contact">
+                                <span uk-icon="icon: quote-right; ratio: 2.5"></span>
                             </Link>
                         </li>
+
+
                     </ul>
                 </div>
             </nav>
