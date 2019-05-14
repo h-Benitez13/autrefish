@@ -12,126 +12,379 @@ function Landing() {
             <CardContainer>
                 {/* first grid */}
                 <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center"  uk-scrollspy-class="uk-animation-slide-top">
-                        <div className="uk-media-center">
-                            <img src="Assets/Card/cassets.jpeg" alt="" width="300px"/>
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center " style={{ "height": "500px" }} uk-scrollspy-class="uk-animation-slide-top">
+                        <div className="container" style={{ "background": "url('Assets/Card/cassets.jpeg')" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div>
+                    <div className="uk-card uk-flex uk-flex-center uk-flex-middle" style={{ "height": "300px" }} uk-scrollspy-class="uk-animation-slide-bottom">
+                        <div className="container" style={{ "background": "url('Assets/Card/converse.jpeg')" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className="uk-card uk-flex uk-flex-center uk-flex-middle" style={{ "height": "300px", "backgroundImage": "url('Assets/Card/converse.jpeg')", "backgroundSize": "inherit", "backgroundRepeat": "repeat" }} uk-scrollspy-class="uk-animation-slide-bottom">
-                        
-                    </div>
-                </div>
-                <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle"  uk-scrollspy-class="uk-animation-slide-right">
-                        <div className="uk-media-center">
-                            <img src="Assets/Card/dogtown.jpeg" alt="" width="300px"/>
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{ "height": "600px", "width": "650px" }} uk-scrollspy-class="uk-animation-slide-right">
+                        <div className="container" style={{ "backgroundImage": "url('Assets/Card/jay.jpg')", "backgroundSize": "cover", "backgroundRepeat": "no-repeat" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle"  uk-scrollspy-class="uk-animation-scale-up">
-                        <div className="uk-media-center">
-                            <img src="Assets/Card/paak.jpg" alt="" />
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{ "height": "700px" }} uk-scrollspy-class="uk-animation-scale-up">
+                        <div className="container" style={{ "backgroundImage": "url('Assets/Card/paak.jpg')", "backgroundSize": "cover", "backgroundRepeat": "no-repeat" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Title */}
+                <div>
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{ "height": "300px" }}  > AutreFish</div>
+                </div>
+
+
+                <div>
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{ "width": "240px", "height": "320px" }} uk-scrollspy-class="uk-animation-scale-down">
+                        <div className="container" style={{ "backgroundImage": "url('Assets/Card/wander.jpg')", "backgroundSize": "inherit", "backgroundRepeat": "no-repeat" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{"height": "300px"}}  > AutreFish</div>
-                </div>
-                <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle"  uk-scrollspy-class="uk-animation-scale-down">
-                        <div className="uk-media-center">
-                            <img src="Assets/Card/wonderer.jpeg" alt="" />
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{ "height": "250px", "width": "500px" }} uk-scrollspy-class="uk-animation-slide-bottom">
+                        <div className="container" style={{ "backgroundImage": "url('Assets/Card/art.gif')", "backgroundSize": "inherit", "backgroundRepeat": "no-repeat" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle"  uk-scrollspy-class="uk-animation-slide-bottom">
-                        <div className="uk-media-center">
-                            <img src="Assets/Card/art.gif" alt="" width="300px" />
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{ "width": "480px", "height": "480px" }} uk-scrollspy-class="uk-animation-slide-top">
+                        <div className="container" style={{ "backgroundImage": "url('Assets/Card/sit.jpg')", "backgroundSize": "inherit", "backgroundRepeat": "no-repeat" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle"  uk-scrollspy-class="uk-animation-slide-top">
-                        <div className="uk-media-center">
-                            <img src="Assets/Card/sit.jpg" alt="" />
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{ "height": "470px", "width": "270px" }} uk-scrollspy-class="uk-animation-slide-right">
+                        <div className="container" style={{ "backgroundImage": "url('Assets/Card/gambino.gif')", "backgroundSize": "inherit", "backgroundRepeat": "no-repeat" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle"  uk-scrollspy-class="uk-animation-slide-right">
-                        <div className="uk-media-center">
-                            <img src="Assets/Card/gambino.gif" alt="" />
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{ "height": "430px", "width": "420px" }} uk-scrollspy-class="uk-animation-scale-up">
+                        <div className="container" style={{ "backgroundImage": "url('Assets/Card/disclosure.jpg')", "backgroundSize": "inherit", "backgroundRepeat": "no-repeat" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                {/* second grid */}
                 <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle"  uk-scrollspy-class="uk-animation-scale-up">
-                        <div className="uk-media-center">
-                            <img src="Assets/Card/disclosure.jpg" alt="" />
-                        </div>
-                    </div>
-                </div>
-            {/* second grid */}
-                <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center"  uk-scrollspy-class="uk-animation-slide-top">
-                        <div className="uk-media-center">
-                            <img src="Assets/Card/vans.jpg" alt="" width="300px"/>
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center" style={{ "height": "650px", "width": "530px" }} uk-scrollspy-class="uk-animation-slide-top">
+                        <div className="container" style={{ "backgroundImage": "url('Assets/Card/vans.gif')", "backgroundSize": "initial", "backgroundRepeat": "no-repeat" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle"  uk-scrollspy-class="uk-animation-slide-right">
-                        <div className="uk-media-center">
-                            <img src="Assets/Card/lonely-game.gif" alt="" width="600px"/>
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle uk-margin-right" style={{ "height": "500px" }} uk-scrollspy-class="uk-animation-slide-right">
+                        <div className="container" style={{ "backgroundImage": "url('Assets/Card/lonely-game.gif')", "backgroundSize": "initial", "backgroundRepeat": "no-repeat" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{"height":"300px","backgroundImage": "url('Assets/Card/space.gif')","backgroundSize":"cover","backgroundRepeat":"no-repeat"}}  uk-scrollspy-class="uk-animation-scale-up">
-                        <div className="uk-media-center">
-                            <img src="Assets/Card/movement.gif" alt="" width="100px"/>
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{ "height": "300px", "backgroundImage": "url('Assets/Card/space.gif')", "backgroundSize": "cover", "backgroundRepeat": "no-repeat" }} uk-scrollspy-class="uk-animation-scale-up">
+                        <div className="container" style={{ "backgroundImage": "url('Assets/Card/movement.gif')", "backgroundSize": "initial", "backgroundRepeat": "no-repeat", "backgroundPosition": "center center" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* other possible title */}
+                <div>
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{ "height": "300px" }}  >This is the middle</div>
+                </div>
+
+
+                <div>
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{ "height": "240px", "width": "360px" }} uk-scrollspy-class="uk-animation-scale-down">
+                        <div className="container" style={{ "backgroundImage": "url('Assets/Card/kawhi.jpg')", "backgroundSize": "cover", "backgroundRepeat": "no-repeat" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{"height": "300px"}}  >This is the middle</div>
-                </div>
-                <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle"  uk-scrollspy-class="uk-animation-scale-down">
-                        <div className="uk-media-center">
-                            <img src="Assets/Card/kawhi.jpg" alt="" width="400px" />
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{ "height": "800px", "width": "700px" }} uk-scrollspy-class="uk-animation-slide-bottom">
+                        <div className="container" style={{ "backgroundImage": "url('Assets/Card/records.jpg')", "backgroundSize": "cover", "backgroundRepeat": "no-repeat" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle"  uk-scrollspy-class="uk-animation-slide-bottom">
-                        <div className="uk-media-center">
-                            <img src="Assets/Card/records.jpg" alt="" width="500px" />
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{"height":"500px"}} >
+                        <div className="container" style={{ "backgroundImage": "url('Assets/Card/work.jpg')", "backgroundSize": "cover", "backgroundRepeat": "no-repeat" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle"  >
-                        <div className="uk-media-center">
-                            <img src="Assets/Card/work.jpg" alt="" />
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle" style={{"height":"500px","width":"500px"}} uk-scrollspy-class="uk-animation-slide-right">
+                    <div className="container" style={{ "backgroundImage": "url('Assets/Card/solange.gif')", "backgroundSize": "contain", "backgroundRepeat": "no-repeat" }}>
+                            <div className="overlay">
+                                <div className="items"></div>
+                                <div className="items head">
+                                    <p>Flower Embroidery Hoop Art</p>
+                                    <hr />
+                                </div>
+
+                                <div className="items price">
+                                    <p className="old">$699</p>
+                                    <p className="new">$345</p>
+                                </div>
+                                <div className="items cart">
+                                    <i className="fa fa-shopping-cart"></i>
+                                    <span>ADD TO CART</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle"  uk-scrollspy-class="uk-animation-slide-right">
-                        <div className="uk-media-center">
-                            <img src="Assets/Card/solange.gif" alt="" width="500px" />
-                        </div>
-                    </div>
-                </div>
-                
+
             </CardContainer>
-        </div>
+        </div >
     )
 }
 export default Landing;
