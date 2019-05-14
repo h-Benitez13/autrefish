@@ -12,8 +12,8 @@ function Landing() {
             <CardContainer>
                 {/* first grid */}
                 <div>
-                    <div className="uk-card uk-card-muted uk-flex uk-flex-center " style={{ "height": "500px" }} uk-scrollspy-class="uk-animation-slide-top">
-                        <div className="container" style={{ "background": "url('Assets/Card/cassets.jpeg')" }}>
+                    <div className="uk-card uk-card-muted uk-flex uk-flex-center " style={{ "height": "750px","width":"540px" }} uk-scrollspy-class="uk-animation-slide-top">
+                        <div className="container" style={{ "background": "url('Assets/Card/cassets.jpeg')","backgroundRepeat":"no-repeat","backgroundSize":"cover" }}>
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
