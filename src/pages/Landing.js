@@ -7,10 +7,10 @@ function Landing() {
         <Container>
             <Navbar />
             <div className="uk-container uk-position-center">
-                <h1 className="uk-heading-large uk-light" uk-scrollspy="cls: uk-animation-slide-left; delay: 800; repeat: true">
+                <h1 className="uk-heading-large uk-dark" uk-scrollspy="cls: uk-animation-slide-left; delay: 800; repeat: true">
                     Autre
                 </h1>
-                <h1 className="uk-heading-large uk-light" uk-scrollspy="cls: uk-animation-slide-right; delay: 800; repeat: true">
+                <h1 className="uk-heading-large uk-dark" uk-scrollspy="cls: uk-animation-slide-right; delay: 800; repeat: true">
                     Fish
                 </h1>
             </div>
