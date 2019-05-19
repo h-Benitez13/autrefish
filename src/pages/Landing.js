@@ -17,17 +17,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
@@ -42,17 +42,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
@@ -64,17 +64,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
@@ -86,17 +86,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
@@ -115,17 +115,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
@@ -137,17 +137,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
@@ -159,17 +159,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
@@ -181,17 +181,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
@@ -203,17 +203,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
@@ -226,17 +226,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
@@ -249,17 +249,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
@@ -271,17 +271,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
@@ -300,17 +300,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
@@ -322,17 +322,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
@@ -344,17 +344,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
@@ -366,17 +366,17 @@ function Landing() {
                             <div className="overlay">
                                 <div className="items"></div>
                                 <div className="items head">
-                                    <p>Flower Embroidery Hoop Art</p>
+                                    <p>WOAH THIS WORKS</p>
                                     <hr />
                                 </div>
 
                                 <div className="items price">
-                                    <p className="old">$699</p>
-                                    <p className="new">$345</p>
+                                    <p className="old">start</p>
+                                    <p className="new">work</p>
                                 </div>
                                 <div className="items cart">
                                     <i className="fa fa-shopping-cart"></i>
-                                    <span>ADD TO CART</span>
+                                    <span>BOOK US!</span>
                                 </div>
                             </div>
                         </div>
