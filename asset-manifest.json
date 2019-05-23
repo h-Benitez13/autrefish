@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/autrefish/static/css/main.004ae7a5.chunk.css",
-    "main.js": "/autrefish/static/js/main.f5fb5c30.chunk.js",
-    "main.js.map": "/autrefish/static/js/main.f5fb5c30.chunk.js.map",
+    "main.css": "/autrefish/static/css/main.2c7c0320.chunk.css",
+    "main.js": "/autrefish/static/js/main.04f61e23.chunk.js",
+    "main.js.map": "/autrefish/static/js/main.04f61e23.chunk.js.map",
     "runtime~main.js": "/autrefish/static/js/runtime~main.bc43f346.js",
     "runtime~main.js.map": "/autrefish/static/js/runtime~main.bc43f346.js.map",
-    "static/js/2.1e03a75b.chunk.js": "/autrefish/static/js/2.1e03a75b.chunk.js",
-    "static/js/2.1e03a75b.chunk.js.map": "/autrefish/static/js/2.1e03a75b.chunk.js.map",
+    "static/css/2.0158a1d3.chunk.css": "/autrefish/static/css/2.0158a1d3.chunk.css",
+    "static/js/2.0c475f74.chunk.js": "/autrefish/static/js/2.0c475f74.chunk.js",
+    "static/js/2.0c475f74.chunk.js.map": "/autrefish/static/js/2.0c475f74.chunk.js.map",
     "index.html": "/autrefish/index.html",
-    "precache-manifest.3744f789742192227890c3a8f5ed17d1.js": "/autrefish/precache-manifest.3744f789742192227890c3a8f5ed17d1.js",
+    "precache-manifest.d80611f3d9b170840c640dacb7206031.js": "/autrefish/precache-manifest.d80611f3d9b170840c640dacb7206031.js",
     "service-worker.js": "/autrefish/service-worker.js",
-    "static/css/main.004ae7a5.chunk.css.map": "/autrefish/static/css/main.004ae7a5.chunk.css.map"
+    "static/css/2.0158a1d3.chunk.css.map": "/autrefish/static/css/2.0158a1d3.chunk.css.map",
+    "static/css/main.2c7c0320.chunk.css.map": "/autrefish/static/css/main.2c7c0320.chunk.css.map",
+    "static/media/index.css": "/autrefish/static/media/slick.f97e3bbf.svg"
   }
 }
