@@ -1,13 +1,11 @@
 import React from "react";
-import { Navbar } from "../components/Navbar";
-import { CardContainer, NavContainer } from "../components/Container";
+import Layout from "../components/Layout";
+import { CardContainer } from "../components/Container";
 
 function Landing() {
     return (
-        <div>
-            <NavContainer>
-                <Navbar />
-            </NavContainer>
+        
+            <Layout>
 
             <CardContainer>
                 {/* first grid */}
@@ -384,7 +382,7 @@ function Landing() {
                 </div>
 
             </CardContainer>
-        </div >
+        </Layout>
     )
 }
 export default Landing;

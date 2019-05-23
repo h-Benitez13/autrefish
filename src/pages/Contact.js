@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Input } from "../components/Contact";
-import { Navbar } from "../components/Navbar";
+import Layout from "../components/Layout";
 
 function Contact() {
     return (
-        <div>
+        <Layout>
             <Container>
-                <Navbar />
+                
                 <div className="uk-container uk-position-small uk-position-center-left">
                     <h1 className="uk-heading-large uk-light" uk-scrollspy="cls: uk-animation-fade; delay: 500; repeat: true">
                         Contact
@@ -67,7 +67,7 @@ function Contact() {
                 </Input>
             </Container>
 
-        </div>
+        </Layout>
     )
 
 }

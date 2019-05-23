@@ -1,20 +1,18 @@
 import React from "react";
 
-import { Navbar } from "../../components/Navbar";
-import {  NavContainer } from "../../components/Container";
+import Layout from "../../components/Layout";
 
 function Pro1 () {
 
     return(
-        <div>
+        
             
-        <NavContainer>
-            <Navbar/>
-        </NavContainer>
+        <Layout>
         <h1>
             Hello gangstaassss...
         </h1>
-        </div>
+        </Layout>
+        
 
     )
 
