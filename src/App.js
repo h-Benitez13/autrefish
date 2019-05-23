@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Landing from "./pages/Landing";
 import About from "./pages/About";
@@ -13,9 +13,9 @@ function App() {
       <div>
         <Switch>
           <Route exact path="/" component={Landing} />
-          <Route exact path="/Home" component={Landing}/>
-          <Route exact path="/home" component={Landing}/>
-           <Route exact path="/About" component={About} />
+          <Route exact path="/Home" component={Landing} />
+          <Route exact path="/home" component={Landing} />
+          <Route exact path="/About" component={About} />
           <Route exact path="/Contact" component={Contact} />
           {/* <Route exact path="/Portfolio" component={Portfolio} /> */}
           <Route exact path="/Work/pro1" component={pro1} />
