@@ -1,10 +1,41 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { CardContainer } from "../components/Container";
+import Slider from "react-slick";
+
+var settings = {
+  dots: false,
+  infinite: false,
+  autoplay: true,
+  autoplaySpeed: 1000,
+  speed: 1000,
+  slidesToShow: 1,
+  slidesToScroll: 1
+};
 
 function Landing() {
   return (
     <Layout>
+      <Slider {...settings}>
+        <div>
+          <h3>1</h3>
+        </div>
+        <div>
+          <h3>2</h3>
+        </div>
+        <div>
+          <h3>3</h3>
+        </div>
+        <div>
+          <h3>4</h3>
+        </div>
+        <div>
+          <h3>5</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+      </Slider>
       <CardContainer>
         {/* first grid */}
         <div>
