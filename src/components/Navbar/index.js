@@ -28,9 +28,12 @@ export const Navbar = () => {
                                 <span uk-icon="icon: album; ratio: 2.5" uk-tooltip="work" style={{"padding": "2.5px"}}></span>
                                 <div uk-dropdown="mode:click">
                                     <ul className="uk-nav uk-dropdown-nav">
-                                        <Link to="/Work">
-                                        <li className="uk-active"><a href="#">Active</a></li>
+                                        
+                                        <li className="uk-active">
+                                        <Link to="/Work/pro1">
+                                        pro1
                                         </Link>
+                                        </li>
                                         <li><a href="#">Item</a></li>
                                         <li className="uk-nav-header">Header</li>
                                         <li><a href="#">Item</a></li>
