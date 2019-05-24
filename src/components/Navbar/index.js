@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <div className="uk-position-top">
+    <div className="uk-position-top uk-margin-top">
       <nav
         className="uk-navbar-container uk-navbar-transparent"
         uk-navbar
@@ -33,27 +33,26 @@ export const Navbar = () => {
               <div className="uk-inline">
                 <span
                   uk-icon="icon: album; ratio: 1.7"
-                  uk-tooltip="work"
                   style={{ padding: "1.7px" }}
                 />
                 <div uk-dropdown="mode:click">
                   <ul className="uk-nav uk-dropdown-nav">
+                    <li className="uk-nav-header">Work</li>
+                    <li className=" uk-nav-divider" />
                     <li className="uk-active">
                       <Link to="/Work/pro1">pro1</Link>
                     </li>
                     <li>
-                      <a href="#">Item</a>
-                    </li>
-                    <li className="uk-nav-header">Header</li>
-                    <li>
-                      <a href="#">Item</a>
+                      <Link to="/Work/pro2">pro2</Link>
                     </li>
                     <li>
-                      <a href="#">Item</a>
+                      <Link to="/Work/pro3">pro3</Link>
                     </li>
-                    <li className="uk-nav-divider" />
                     <li>
-                      <a href="#">Item</a>
+                      <Link to="/Work/pro4">pro4</Link>
+                    </li>
+                    <li>
+                      <Link to="/Work/pro5">pro5</Link>
                     </li>
                   </ul>
                 </div>

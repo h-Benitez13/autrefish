@@ -25,7 +25,7 @@ function About() {
       <Info>
         <div className=" uk-container uk-container-small ">
           <div
-            className="uk-card uk-card-default uk-card-large uk-light"
+            className="uk-card uk-card-large uk-light"
             style={{ background: "transparent" }}
           >
             <article className="uk-article">
