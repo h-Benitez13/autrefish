@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "222ff0631dceae05287ebc57b94e0e03",
+    "revision": "84985c838d6f8b82202184559d2282f7",
     "url": "/autrefish/index.html"
   },
   {
@@ -8,20 +8,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/autrefish/static/css/2.0158a1d3.chunk.css"
   },
   {
-    "revision": "ed7a6a94e63f45c68199",
-    "url": "/autrefish/static/css/main.51f8f12d.chunk.css"
+    "revision": "fee39c82daadcaeb074b",
+    "url": "/autrefish/static/css/main.6fb0cdc1.chunk.css"
   },
   {
     "revision": "d45f6657b88813ee7142",
     "url": "/autrefish/static/js/2.5092ed99.chunk.js"
   },
   {
-    "revision": "ed7a6a94e63f45c68199",
-    "url": "/autrefish/static/js/main.af5dcc33.chunk.js"
+    "revision": "fee39c82daadcaeb074b",
+    "url": "/autrefish/static/js/main.d428885d.chunk.js"
   },
   {
     "revision": "bb336bb11b4933acb40c",
     "url": "/autrefish/static/js/runtime~main.bc43f346.js"
+  },
+  {
+    "revision": "23cfafed331ccac33583a216abe7723a",
+    "url": "/autrefish/static/media/PoynterText-Regular.23cfafed.ttf"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
