@@ -3,16 +3,15 @@ import React from "react";
 const contactImg = {
   backgroundImage: 'url("Assets/Contact/scuba.png")',
   backgroundRepeat: "no-repeat",
-  backgroundSize: "initial",
-  backgroundPosition: "bottom right",
-  height: "1050px",
-  backgroundColor: "rgb(107,146,174)"
+  backgroundSize: "inherit",
+  backgroundPosition: " center",
+  height: "800px"
 };
 
 export const Container = ({ children }) => {
   return (
     <div
-      className="uk-background-container uk-panel uk-flex uk-height-small uk-position-relative"
+      className="uk-container uk-container-large uk-panel uk-flex uk-height-small uk-position-relative"
       style={contactImg}
     >
       {children}
@@ -22,8 +21,11 @@ export const Container = ({ children }) => {
 
 export const Input = ({ children }) => {
   return (
-    <div className="uk-container uk-container-large uk-position-medium uk-position-center">
-      <form className="uk-form-horizontal uk-grid-large" uk-grid>
+    <div className="uk-container uk-container-medium uk-position-medium uk-position-left uk-margin-large-top">
+      <form
+        className="uk-form-horizontal uk-grid-medium uk-card uk-card-large uk-card-secondary"
+        uk-grid
+      >
         {children}
       </form>
     </div>
