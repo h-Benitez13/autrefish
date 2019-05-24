@@ -43,13 +43,13 @@ function Landing() {
         <div>
           <div
             className="uk-card uk-card-muted uk-flex uk-flex-center "
-            style={{ height: "450px", width: "340px", marginLeft: "10px" }}
+            style={{ height: "700px", width: "340px", marginLeft: "10px" }}
             uk-scrollspy-class="uk-animation-slide-top"
           >
             <div
               className="container"
               style={{
-                background: "url('Assets/Card/cassets.jpeg')",
+                background: "url('Assets/Landing/pro1.jpg')",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover"
               }}
@@ -76,13 +76,17 @@ function Landing() {
 
         <div>
           <div
-            className="uk-card uk-flex  uk-flex-middle"
-            style={{ height: "300px", width: "450px" }}
+            className="uk-card uk-flex  uk-flex-right"
+            style={{ height: "400px", width: "750px" }}
             uk-scrollspy-class="uk-animation-slide-bottom"
           >
             <div
               className="container"
-              style={{ background: "url('Assets/Card/converse.jpeg')" }}
+              style={{
+                backgroundImage: "url('Assets/Landing/pro3.png')",
+                backgroundSize: "cover",
+                backgroundRepeat: "no-repeat"
+              }}
             >
               <div className="overlay">
                 <div className="items" />
@@ -106,36 +110,10 @@ function Landing() {
 
         <div>
           <div
-            className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle"
-            style={{ height: "400px", width: "450px" }}
+            className="uk-card uk-flex uk-flex-center uk-flex-middle"
+            style={{ height: "400px", width: "300px" }}
             uk-scrollspy-class="uk-animation-slide-right"
-          >
-            <div
-              className="container"
-              style={{
-                backgroundImage: "url('Assets/Card/jay.jpg')",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat"
-              }}
-            >
-              <div className="overlay">
-                <div className="items" />
-                <div className="items head">
-                  <p>WOAH THIS WORKS</p>
-                  <hr />
-                </div>
-
-                <div className="items price">
-                  <p className="old">start</p>
-                  <p className="new">work</p>
-                </div>
-                <div className="items cart">
-                  <i className="fa fa-shopping-cart" />
-                  <span>BOOK US!</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          />
         </div>
 
         <div>
@@ -176,11 +154,13 @@ function Landing() {
         <div>
           <div
             className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle"
-            style={{ height: "300px" }}
-          >
-            {" "}
-            AutreFish
-          </div>
+            style={{
+              backgroundImage: "url('Assets/Landing/autrefishlogo.png')",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+              height: "400px"
+            }}
+          />
         </div>
 
         <div>
