@@ -58,6 +58,14 @@ function Landing() {
                 <div className="items" />
                 <div className="items head">
                   <p>WOAH THIS WORKS</p>
+                  <a
+                    class="uk-button uk-button-default"
+                    href="/Assets/Landing/autrefishlogo.png"
+                    data-caption="Image"
+                    uk-lightbox
+                  >
+                    Image
+                  </a>
                   <hr />
                 </div>
 
@@ -77,7 +85,7 @@ function Landing() {
         <div>
           <div
             className="uk-card uk-flex  uk-flex-right"
-            style={{ height: "400px", width: "750px" }}
+            style={{ height: "400px", width: "750px", marginLeft: "-50px" }}
             uk-scrollspy-class="uk-animation-slide-bottom"
           >
             <div
@@ -152,15 +160,9 @@ function Landing() {
 
         {/* Title */}
         <div>
-          <div
-            className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle"
-            style={{
-              backgroundImage: "url('Assets/Landing/autrefishlogo.png')",
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              height: "400px"
-            }}
-          />
+          <div className="uk-card uk-card-muted uk-flex uk-flex-center uk-flex-middle">
+            Autrefish
+          </div>
         </div>
 
         <div>

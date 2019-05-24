@@ -68,6 +68,17 @@ export const Navbar = () => {
                 <span uk-icon="icon: quote-right; ratio: 1.7" />
               </Link>
             </li>
+            <li className="uk-logo uk-position-right">
+              <img
+                src="Assets/Landing/autrefishlogo.png"
+                alt="autrefish logo"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  marginRight: "50px"
+                }}
+              />
+            </li>
           </ul>
         </div>
       </nav>

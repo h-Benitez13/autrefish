@@ -1,5 +1,13 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
+@font-face {
+  font-family: autrefish;
+  src: url("./Font/PoynterText-Regular.ttf");
+}
+body,
+.uk-heading-large {
+  font-family: autrefish;
+}
 
 .container {
   position: absolute;
