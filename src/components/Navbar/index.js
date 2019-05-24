@@ -25,7 +25,7 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a href="https://www.instagram.com/">
+              <a href="https://www.instagram.com/autrefish/">
                 <span uk-icon="icon: instagram; ratio: 1.7" />
               </a>
             </li>
