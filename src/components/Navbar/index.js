@@ -16,25 +16,25 @@ export const Navbar = () => {
           >
             <li className="uk-active">
               <Link to="/Home">
-                <span uk-icon="icon: home; ratio: 2.5" />
+                <span uk-icon="icon: home; ratio: 1.7" />
               </Link>
             </li>
             <li>
               <Link to="/About">
-                <span uk-icon="icon: info; ratio: 2.5" />
+                <span uk-icon="icon: info; ratio: 1.7" />
               </Link>
             </li>
             <li>
               <a href="https://www.instagram.com/">
-                <span uk-icon="icon: instagram; ratio: 2.5" />
+                <span uk-icon="icon: instagram; ratio: 1.7" />
               </a>
             </li>
             <li>
               <div className="uk-inline">
                 <span
-                  uk-icon="icon: album; ratio: 2.5"
+                  uk-icon="icon: album; ratio: 1.7"
                   uk-tooltip="work"
-                  style={{ padding: "2.5px" }}
+                  style={{ padding: "1.7px" }}
                 />
                 <div uk-dropdown="mode:click">
                   <ul className="uk-nav uk-dropdown-nav">
@@ -61,12 +61,12 @@ export const Navbar = () => {
             </li>
             <li>
               <Link to="/Portfolio">
-                <span uk-icon="icon: users; ratio: 2.5" />
+                <span uk-icon="icon: users; ratio: 1.7" />
               </Link>
             </li>
             <li>
               <Link to="/Contact">
-                <span uk-icon="icon: quote-right; ratio: 2.5" />
+                <span uk-icon="icon: quote-right; ratio: 1.7" />
               </Link>
             </li>
           </ul>

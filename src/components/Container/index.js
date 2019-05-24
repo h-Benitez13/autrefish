@@ -18,12 +18,9 @@ export const NavContainer = ({ children }) => {
 
 export const CardContainer = ({ children }) => {
   return (
-    <div
-      className="uk-section uk-section-default uk-section-large"
-      style={{ height: "1100px" }}
-    >
+    <div className="uk-section uk-section-default uk-section-large">
       <div
-        className="uk-margin-left uk-child-width-1-2@s uk-child-width-1-3@m"
+        className=" uk-child-width-1-2@s uk-child-width-1-3@m"
         uk-grid="masonry: true"
         uk-scrollspy="target: div> .uk-card;cls: uk-animation-fade; delay: 500; repeat: true"
       >
