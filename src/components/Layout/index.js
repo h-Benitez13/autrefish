@@ -9,6 +9,7 @@ function Layout({ children }) {
       <NavContainer>
         <Navbar />
       </NavContainer>
+
       {children}
     </div>
   );

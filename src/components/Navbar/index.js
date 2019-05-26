@@ -14,21 +14,13 @@ export const Navbar = () => {
             className="uk-iconnav uk-dark"
             uk-scrollspy="cls: uk-animation-fade; target: > li ; delay: 300; repeat:true"
           >
+            {/* Home */}
             <li className="uk-active">
               <Link to="/Home">
                 <span uk-icon="icon: home; ratio: 1.7" />
               </Link>
             </li>
-            <li>
-              <Link to="/About">
-                <span uk-icon="icon: info; ratio: 1.7" />
-              </Link>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/autrefish/">
-                <span uk-icon="icon: instagram; ratio: 1.7" />
-              </a>
-            </li>
+            {/* Projects */}
             <li>
               <div className="uk-inline">
                 <span
@@ -37,36 +29,44 @@ export const Navbar = () => {
                 />
                 <div uk-dropdown="mode:click">
                   <ul className="uk-nav uk-dropdown-nav">
-                    <li className="uk-nav-header">Work</li>
+                    <li className="uk-nav-header">Projects</li>
                     <li className=" uk-nav-divider" />
-                    <li className="uk-active">
-                      <Link to="/Work/pro1">pro1</Link>
-                    </li>
                     <li>
-                      <Link to="/Work/pro2">pro2</Link>
+                      <Link to="/Projects/commercials">Commercials</Link>
                     </li>
+                    <li className=" uk-nav-divider" />
                     <li>
-                      <Link to="/Work/pro3">pro3</Link>
+                      <Link to="/Projects/musicVideos">Music Videos</Link>
                     </li>
+                    <li className=" uk-nav-divider" />
                     <li>
-                      <Link to="/Work/pro4">pro4</Link>
+                      <Link to="/Projects/tvSeries">Television Series</Link>
                     </li>
+                    <li className=" uk-nav-divider" />
                     <li>
-                      <Link to="/Work/pro5">pro5</Link>
+                      <Link to="/Projects/films">Films</Link>
                     </li>
                   </ul>
                 </div>
               </div>
             </li>
+            {/* About */}
             <li>
-              <Link to="/Portfolio">
-                <span uk-icon="icon: users; ratio: 1.7" />
+              <Link to="/About">
+                <span uk-icon="icon: info; ratio: 1.7" />
               </Link>
             </li>
+            {/* Contact */}
             <li>
               <Link to="/Contact">
                 <span uk-icon="icon: quote-right; ratio: 1.7" />
               </Link>
+            </li>
+            {/* Instagram */}
+            <li>
+              <a href="https://www.instagram.com/autrefish/">
+                <span uk-icon="icon: instagram; ratio: 1.7" />
+              </a>
             </li>
             <li className="uk-logo uk-position-right">
               <img
