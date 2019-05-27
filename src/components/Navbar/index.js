@@ -5,6 +5,7 @@ export const Navbar = () => {
   return (
     <div>
       <nav
+        id="webNav"
         className="uk-navbar-container uk-margin-top uk-navbar-transparent"
         uk-navbar
         uk-sticky="animation: uk-animation-slide-top"
@@ -85,7 +86,10 @@ export const Navbar = () => {
           </ul>
         </div>
       </nav>
-      <nav className="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin">
+      <nav
+        id="mobileNav"
+        className="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin"
+      >
         <div className="uk-navbar-left">
           <div className="uk-inline">
             <a href="#" uk-icon="icon: table; ratio: 1.5" />
