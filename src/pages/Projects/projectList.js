@@ -1,13 +1,12 @@
 import React from "react";
-
 import Layout from "../../components/Layout";
 
-function Pro1() {
+function List() {
   return (
     <Layout>
-      <h1>Hello gangstaassss...</h1>
+      <h1>what up...GANGSTAASSSSSS</h1>
     </Layout>
   );
 }
 
-export default Pro1;
+export default List;

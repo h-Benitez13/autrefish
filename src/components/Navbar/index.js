@@ -34,19 +34,19 @@ export const Navbar = () => {
                     <li className="uk-nav-header">Projects</li>
                     <li className=" uk-nav-divider" />
                     <li>
-                      <Link to="/Projects/commercials">Commercials</Link>
+                      <Link to="/Projects/projectList">Commercials</Link>
                     </li>
                     <li className=" uk-nav-divider" />
                     <li>
-                      <Link to="/Projects/musicVideos">Music Videos</Link>
+                      <Link to="/Projects/projectList">Music Videos</Link>
                     </li>
                     <li className=" uk-nav-divider" />
                     <li>
-                      <Link to="/Projects/tvSeries">Television Series</Link>
+                      <Link to="/Projects/projectList">Television Series</Link>
                     </li>
                     <li className=" uk-nav-divider" />
                     <li>
-                      <Link to="/Projects/films">Films</Link>
+                      <Link to="/Projects/projectList">Films</Link>
                     </li>
                   </ul>
                 </div>
@@ -69,11 +69,16 @@ export const Navbar = () => {
 
             {/* Instagram */}
             <li>
-              <a href="https://www.instagram.com/autrefish/">
+              <a
+                style={{ display: "target-cell" }}
+                href="https://www.instagram.com/autrefish/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <span uk-icon="icon: instagram; ratio: 1.7" />
               </a>
             </li>
-            <li className="uk-logo uk-position-right">
+            <li className="uk-logo uk-position-left">
               <img
                 src="Assets/Landing/autrefishlogo.png"
                 alt="autrefish logo"
@@ -117,24 +122,32 @@ export const Navbar = () => {
                     <li className="uk-active uk-nav-header">Projects</li>
                     <li className="uk-nav-divider" />
                     <li>
-                      <Link to="/Projects/commercials">Commercials</Link>
+                      <Link to="/Projects/projectList">Commercials</Link>
                     </li>
                     <li className=" uk-nav-divider" />
                     <li>
-                      <Link to="/Projects/musicVideos">Music Videos</Link>
+                      <Link to="/Projects/projectList">Music Videos</Link>
                     </li>
                     <li className=" uk-nav-divider" />
                     <li>
-                      <Link to="/Projects/tvSeries">Television Series</Link>
+                      <Link to="/Projects/projectList">Television Series</Link>
                     </li>
                     <li className=" uk-nav-divider" />
                     <li>
-                      <Link to="/Projects/films">Films</Link>
+                      <Link to="/Projects/projectList">Films</Link>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className="uk-nav-item uk-logo">
+            <img
+              src="Assets/Landing/autrefishlogo.png"
+              alt="AutreFish logo"
+              width="200px"
+            />
           </div>
         </div>
       </nav>

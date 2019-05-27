@@ -10,7 +10,7 @@ export const Container = ({ children }) => {
 
 export const NavContainer = ({ children }) => {
   return (
-    <div className="uk-container uk-container-large uk-margin-medium-bottom">
+    <div className="uk-container uk-container-large uk-margin-large-bottom">
       {children}
     </div>
   );
