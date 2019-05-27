@@ -29,8 +29,8 @@ export const Navbar = () => {
                   uk-icon="icon: album; ratio: 1.7"
                   style={{ padding: "1.7px" }}
                 />
-                <div uk-dropdown="mode:click">
-                  <ul className="uk-nav uk-dropdown-nav">
+                <div uk-dropdown="mode:hover">
+                  <ul className="uk-nav uk-navbar-dropdown-nav">
                     <li className="uk-nav-header">Projects</li>
                     <li className=" uk-nav-divider" />
                     <li>
@@ -96,8 +96,45 @@ export const Navbar = () => {
           </div>
 
           <div uk-dropdown="mode: click">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt.
+            <div className="uk-nav uk-navbar-dropdown-nav uk-navbar-dropdown-width-1">
+              <div
+                className="uk-navbar-dropdown-grid uk-child-width-1-2"
+                uk-grid
+                uk-navbar="boundary-align: true; align: center"
+              >
+                <div>
+                  <ul className="uk-nav uk-navbar-dropdown-nav">
+                    <li className="uk-active uk-nav-header">
+                      <Link to="/Home"> Home</Link>
+                    </li>
+                    <li className="uk-active uk-nav-header">
+                      <Link to="/About">About</Link>
+                    </li>
+
+                    <li className="uk-active uk-nav-header">
+                      <Link to="/Contact">Contact</Link>
+                    </li>
+                    <li className="uk-active uk-nav-header">Projects</li>
+                    <li className="uk-nav-divider" />
+                    <li>
+                      <Link to="/Projects/commercials">Commercials</Link>
+                    </li>
+                    <li className=" uk-nav-divider" />
+                    <li>
+                      <Link to="/Projects/musicVideos">Music Videos</Link>
+                    </li>
+                    <li className=" uk-nav-divider" />
+                    <li>
+                      <Link to="/Projects/tvSeries">Television Series</Link>
+                    </li>
+                    <li className=" uk-nav-divider" />
+                    <li>
+                      <Link to="/Projects/films">Films</Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
