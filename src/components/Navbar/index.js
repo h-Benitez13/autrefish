@@ -92,7 +92,8 @@ export const Navbar = () => {
       >
         <div className="uk-navbar-left">
           <div className="uk-inline">
-            <a href="#" uk-icon="icon: table; ratio: 1.5" />
+            {/* // eslint-disable-next-line */}
+            <a href="" uk-icon="icon: table; ratio: 1.5" />
           </div>
 
           <div uk-dropdown="mode: click">

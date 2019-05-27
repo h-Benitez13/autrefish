@@ -85,7 +85,7 @@ function Landing() {
         <div>
           <div
             className="uk-card uk-flex  uk-flex-right"
-            style={{ height: "200px", width: "550px" }}
+            style={{ height: "250px", width: "550px" }}
             uk-scrollspy-class="uk-animation-scale-down"
           >
             <div
@@ -119,7 +119,7 @@ function Landing() {
         <div>
           <div
             className="uk-card uk-flex uk-flex-center uk-flex-middle"
-            style={{ height: "200px", width: "350px" }}
+            style={{ height: "270px", width: "350px" }}
           />
         </div>
 

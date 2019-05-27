@@ -5,7 +5,8 @@
   src: url("./Font/PoynterText-Regular.ttf");
 }
 body,
-.uk-heading-large {
+.uk-heading-large,
+li {
   font-family: autrefish;
 }
 

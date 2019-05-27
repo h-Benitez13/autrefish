@@ -1,11 +1,10 @@
 import React from "react";
 import { Container, Info } from "../components/About";
-import { Navbar } from "../components/Navbar";
+import Layout from "../components/Layout";
 
 function About() {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <Container>
         <div className="uk-container uk-position-small uk-position-center">
           <h1
@@ -61,7 +60,7 @@ function About() {
           </div>
         </div>
       </Info>
-    </div>
+    </Layout>
   );
 }
 
