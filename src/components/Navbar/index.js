@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <div className="uk-position-top uk-margin-top">
+    <div>
       <nav
-        className="uk-navbar-container uk-navbar-transparent"
+        className="uk-navbar-container uk-margin-top uk-navbar-transparent"
         uk-navbar
         uk-sticky="animation: uk-animation-slide-top"
       >
@@ -20,6 +20,7 @@ export const Navbar = () => {
                 <span uk-icon="icon: home; ratio: 1.7" />
               </Link>
             </li>
+
             {/* Projects */}
             <li>
               <div className="uk-inline">
@@ -50,18 +51,21 @@ export const Navbar = () => {
                 </div>
               </div>
             </li>
+
             {/* About */}
             <li>
               <Link to="/About">
                 <span uk-icon="icon: info; ratio: 1.7" />
               </Link>
             </li>
+
             {/* Contact */}
             <li>
               <Link to="/Contact">
                 <span uk-icon="icon: quote-right; ratio: 1.7" />
               </Link>
             </li>
+
             {/* Instagram */}
             <li>
               <a href="https://www.instagram.com/autrefish/">
@@ -74,12 +78,23 @@ export const Navbar = () => {
                 alt="autrefish logo"
                 style={{
                   width: "100px",
-                  height: "100px",
-                  marginRight: "50px"
+                  height: "100px"
                 }}
               />
             </li>
           </ul>
+        </div>
+      </nav>
+      <nav className="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin">
+        <div className="uk-navbar-left">
+          <div className="uk-inline">
+            <a href="#" uk-icon="icon: table; ratio: 1.5" />
+          </div>
+
+          <div uk-dropdown="mode: click">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt.
+          </div>
         </div>
       </nav>
     </div>

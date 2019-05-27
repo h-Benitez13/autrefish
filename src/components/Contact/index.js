@@ -2,7 +2,7 @@ import React from "react";
 
 export const Container = ({ children }) => {
   return (
-    <div className="uk-section uk-section-default ">
+    <div className="uk-section uk-section-default uk-section-small ">
       <div className="uk-container uk-container-small">{children}</div>
     </div>
   );

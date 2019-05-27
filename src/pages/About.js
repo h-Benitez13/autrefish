@@ -5,8 +5,8 @@ import { Navbar } from "../components/Navbar";
 function About() {
   return (
     <div>
+      <Navbar />
       <Container>
-        <Navbar />
         <div className="uk-container uk-position-small uk-position-center">
           <h1
             className="uk-heading-large uk-dark"
