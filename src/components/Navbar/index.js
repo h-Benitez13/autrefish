@@ -92,7 +92,6 @@ export const Navbar = () => {
       >
         <div className="uk-navbar-left">
           <div className="uk-inline">
-            {/* // eslint-disable-next-line */}
             <a href="" uk-icon="icon: table; ratio: 1.5" />
           </div>
 

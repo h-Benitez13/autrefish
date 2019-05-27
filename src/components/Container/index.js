@@ -10,7 +10,7 @@ export const Container = ({ children }) => {
 
 export const NavContainer = ({ children }) => {
   return (
-    <div className="uk-container uk-container-large uk-margin-large-bottom">
+    <div className="uk-container uk-container-large uk-margin-medium-bottom">
       {children}
     </div>
   );
@@ -23,7 +23,7 @@ export const CardContainer = ({ children }) => {
         <div
           className="uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m"
           uk-grid="masonry: true"
-          uk-scrollspy="target: div> .uk-card;cls: uk-animation-fade; delay: 500; repeat: true"
+          uk-scrollspy="target: div> .uk-card;cls: uk-animation-fade; delay: 500; repeat: false"
         >
           {children}
         </div>
