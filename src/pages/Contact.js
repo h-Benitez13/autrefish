@@ -80,9 +80,9 @@ function Contact() {
           <div className="uk-margin ">
             <a
               href="mailto:weare@autrefish.com"
-              className="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom"
+              className="uk-button uk-button-secondary uk-width-1-1 uk-margin-small-bottom"
             >
-              Button
+              Submit
             </a>
           </div>
         </Input>

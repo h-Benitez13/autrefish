@@ -21,7 +21,7 @@ export const CardContainer = ({ children }) => {
     <div className="uk-section uk-section-default uk-section-small">
       <div className="uk-container uk-container-small">
         <div
-          className="uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m"
+          className="uk-grid-collapse uk-child-width-1-2@s uk-child-width-1-3@m"
           uk-grid="masonry: true"
           uk-scrollspy="target: div> .uk-card;cls: uk-animation-fade; delay: 500; repeat: false"
         >
