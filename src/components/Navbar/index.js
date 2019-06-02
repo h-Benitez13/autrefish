@@ -22,37 +22,6 @@ export const Navbar = () => {
               </Link>
             </li>
 
-            {/* Projects */}
-            <li>
-              <div className="uk-inline">
-                <span
-                  uk-icon="icon: album; ratio: 1.7"
-                  style={{ padding: "1.7px" }}
-                />
-                <div uk-dropdown="mode:hover">
-                  <ul className="uk-nav uk-navbar-dropdown-nav">
-                    <li className="uk-nav-header">Projects</li>
-                    <li className=" uk-nav-divider" />
-                    <li>
-                      <Link to="/Projects/projectList">Commercials</Link>
-                    </li>
-                    <li className=" uk-nav-divider" />
-                    <li>
-                      <Link to="/Projects/projectList">Music Videos</Link>
-                    </li>
-                    <li className=" uk-nav-divider" />
-                    <li>
-                      <Link to="/Projects/projectList">Television Series</Link>
-                    </li>
-                    <li className=" uk-nav-divider" />
-                    <li>
-                      <Link to="/Projects/projectList">Films</Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </li>
-
             {/* About */}
             <li>
               <Link to="/About">
@@ -80,7 +49,7 @@ export const Navbar = () => {
             </li>
             <li className="uk-logo uk-position-left">
               <img
-                src="Assets/Landing/autrefishlogo.png"
+                src="Assets/Landing/autrefish.png"
                 alt="autrefish logo"
                 style={{
                   width: "100px",
@@ -97,7 +66,7 @@ export const Navbar = () => {
       >
         <div className="uk-navbar-left">
           <div className="uk-inline">
-            <a href="" uk-icon="icon: table; ratio: 1.5" />
+            <span uk-icon="icon: table; ratio: 1.5" />
           </div>
 
           <div uk-dropdown="mode: click">
@@ -119,23 +88,6 @@ export const Navbar = () => {
                     <li className="uk-active uk-nav-header">
                       <Link to="/Contact">Contact</Link>
                     </li>
-                    <li className="uk-active uk-nav-header">Projects</li>
-                    <li className="uk-nav-divider" />
-                    <li>
-                      <Link to="/Projects/projectList">Commercials</Link>
-                    </li>
-                    <li className=" uk-nav-divider" />
-                    <li>
-                      <Link to="/Projects/projectList">Music Videos</Link>
-                    </li>
-                    <li className=" uk-nav-divider" />
-                    <li>
-                      <Link to="/Projects/projectList">Television Series</Link>
-                    </li>
-                    <li className=" uk-nav-divider" />
-                    <li>
-                      <Link to="/Projects/projectList">Films</Link>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -144,9 +96,9 @@ export const Navbar = () => {
 
           <div className="uk-nav-item uk-logo">
             <img
-              src="Assets/Landing/autrefishlogo.png"
+              src="Assets/Landing/autrefish.png"
               alt="AutreFish logo"
-              width="200px"
+              width="150px"
             />
           </div>
         </div>

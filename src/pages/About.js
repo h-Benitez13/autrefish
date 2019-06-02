@@ -11,7 +11,7 @@ function About() {
             className="uk-heading-large uk-dark"
             uk-scrollspy="cls: uk-animation-slide-bottom; delay: 800; repeat: true"
           >
-            AutreFish
+            autre fish
           </h1>
         </div>
       </Container>
