@@ -119,6 +119,14 @@ li {
   #mobileNav {
     display: block;
   }
+  .container {
+    height: 70%;
+    width: 300px;
+  }
+
+  #blankCard {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 550px) {

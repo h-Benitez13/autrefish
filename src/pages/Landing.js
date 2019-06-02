@@ -43,6 +43,7 @@ function Landing() {
 
         <div>
           <div
+            id="card"
             className="uk-card  "
             style={{ height: "600px", width: "450px" }}
             uk-scrollspy-class="uk-animation-scale-down"
@@ -263,12 +264,17 @@ function Landing() {
             </div>
           </div>
         </div>
+        {/* blank cards for grid */}
         <div>
-          <div className="uk-card" />
+          <div id="blankCard" className="uk-card" />
         </div>
 
         <div>
-          <div className="uk-card uk-margin" style={{ height: "400px" }} />
+          <div
+            id="blankCard"
+            className="uk-card uk-margin"
+            style={{ height: "400px" }}
+          />
         </div>
 
         <div>
