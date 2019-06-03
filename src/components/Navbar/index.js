@@ -7,7 +7,6 @@ export const Navbar = () => {
       <nav
         id="webNav"
         className="uk-navbar-container uk-margin-top uk-navbar-transparent"
-        uk-navbar
         uk-sticky="animation: uk-animation-slide-top"
       >
         <div className="uk-flex uk-flex-center">

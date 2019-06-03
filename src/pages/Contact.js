@@ -6,6 +6,9 @@ function Contact() {
   return (
     <Layout>
       <Container>
+        <a className="uk-button" href="mailto:weare@autrefish.com">
+          <img src="Assets/Landing/autrefishlogo.png" alt="autrefish logo" />
+        </a>
         <h1
           className="uk-heading-large "
           uk-scrollspy="cls: uk-animation-fade; delay: 500; repeat: true"
@@ -13,10 +16,8 @@ function Contact() {
           Contact
         </h1>
         <Input>
-          {/* first name */}
-
           <div className=" uk-inline">
-            <label className="uk-form-label " for="form-stacked-first">
+            <label className="uk-form-label ">
               <h4>First Name</h4>
             </label>
 
@@ -26,9 +27,9 @@ function Contact() {
               type="text"
             />
           </div>
-          {/* last name */}
+
           <div className=" uk-inline uk-margin-left">
-            <label className="uk-form-label " for="form-stacked-last">
+            <label className="uk-form-label ">
               <h4>Last Name</h4>
             </label>
 
@@ -39,9 +40,8 @@ function Contact() {
             />
           </div>
 
-          {/* email */}
           <div className="uk-margin">
-            <label className="uk-form-label " for="form-label-email">
+            <label className="uk-form-label ">
               <h4>Email</h4>
             </label>
             <input
@@ -51,9 +51,8 @@ function Contact() {
             />
           </div>
 
-          {/* subject */}
           <div>
-            <label className="uk-form-label " for="form-stacked-text">
+            <label className="uk-form-label ">
               <h4>Subject</h4>
             </label>
             <input
@@ -64,11 +63,10 @@ function Contact() {
             />
           </div>
 
-          {/* text-area */}
           <div className="uk-margin">
-            <lable className="uk-form-label " for="uk-textarea">
+            <label className="uk-form-label ">
               <h4>Message</h4>
-            </lable>
+            </label>
             <textarea
               className="uk-textarea"
               rows="5"
@@ -76,7 +74,6 @@ function Contact() {
             />
           </div>
 
-          {/* submit button */}
           <div className="uk-margin ">
             <a
               href="mailto:weare@autrefish.com"

@@ -74,12 +74,12 @@ function Landing() {
                   >
                     Vimeo
                   </a>
-                  <p className="old">start</p>
-                  <p className="new">work</p>
+                  <p className="old" />
+                  <p className="new" />
                 </div>
                 <div className="items cart">
                   <i className="fa fa-shopping-cart" />
-                  <span>BOOK US!</span>
+                  <span />
                 </div>
               </div>
             </div>
@@ -118,12 +118,12 @@ function Landing() {
                   >
                     Vimeo
                   </a>
-                  <p className="old">start</p>
-                  <p className="new">work</p>
+                  <p className="old" />
+                  <p className="new" />
                 </div>
                 <div className="items cart">
                   <i className="fa fa-shopping-cart" />
-                  <span>BOOK US!</span>
+                  <span />
                 </div>
               </div>
             </div>
@@ -163,12 +163,12 @@ function Landing() {
                   >
                     Youtube
                   </a>
-                  <p className="old">start</p>
-                  <p className="new">work</p>
+                  <p className="old" />
+                  <p className="new" />
                 </div>
                 <div className="items cart">
                   <i className="fa fa-shopping-cart" />
-                  <span>BOOK US!</span>
+                  <span />
                 </div>
               </div>
             </div>
@@ -207,12 +207,12 @@ function Landing() {
                   >
                     Vimeo
                   </a>
-                  <p className="old">start</p>
-                  <p className="new">work</p>
+                  <p className="old" />
+                  <p className="new" />
                 </div>
                 <div className="items cart">
                   <i className="fa fa-shopping-cart" />
-                  <span>BOOK US!</span>
+                  <span />
                 </div>
               </div>
             </div>
@@ -253,12 +253,12 @@ function Landing() {
                   >
                     Vimeo
                   </a>
-                  <p className="old">start</p>
-                  <p className="new">work</p>
+                  <p className="old" />
+                  <p className="new" />
                 </div>
                 <div className="items cart">
                   <i className="fa fa-shopping-cart" />
-                  <span>BOOK US!</span>
+                  <span />
                 </div>
               </div>
             </div>
@@ -308,12 +308,12 @@ function Landing() {
                   >
                     Vimeo
                   </a>
-                  <p className="old">start</p>
-                  <p className="new">work</p>
+                  <p className="old" />
+                  <p className="new" />
                 </div>
                 <div className="items cart">
                   <i className="fa fa-shopping-cart" />
-                  <span>BOOK US!</span>
+                  <span />
                 </div>
               </div>
             </div>
