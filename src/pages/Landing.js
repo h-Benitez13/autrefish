@@ -10,7 +10,6 @@ function Landing() {
 
         <div>
           <div
-            id="card"
             className="uk-card  "
             style={{ height: "600px", width: "450px" }}
           >
@@ -31,7 +30,7 @@ function Landing() {
 
                 <div className="items price">
                   <a
-                    class="uk-button uk-button-secondary"
+                    className="uk-button uk-button-secondary"
                     href="https://vimeo.com/338146747"
                     data-caption="Vimeo"
                     rel="noopener noreferrer"
@@ -74,7 +73,7 @@ function Landing() {
 
                 <div className="items price">
                   <a
-                    class="uk-button uk-button-secondary"
+                    className="uk-button uk-button-secondary"
                     href="https://vimeo.com/332145760"
                     data-caption="Vimeo"
                     rel="noopener noreferrer"
@@ -119,7 +118,7 @@ function Landing() {
 
                 <div className="items price">
                   <a
-                    class="uk-button uk-button-secondary"
+                    className="uk-button uk-button-secondary"
                     href="https://www.youtube.com/watch?v=Ot6cTte70p8"
                     data-caption="Youtube"
                     rel="noopener noreferrer"
@@ -162,7 +161,7 @@ function Landing() {
 
                 <div className="items price">
                   <a
-                    class="uk-button uk-button-secondary"
+                    className="uk-button uk-button-secondary"
                     href="https://vimeo.com/329699071"
                     data-caption="Vimeo"
                     rel="noopener noreferrer"
@@ -204,7 +203,7 @@ function Landing() {
 
                 <div className="items price">
                   <a
-                    class="uk-button uk-button-secondary"
+                    className="uk-button uk-button-secondary"
                     href="https://vimeo.com/325809855"
                     data-caption="Vimeo"
                     rel="noopener noreferrer"
@@ -259,7 +258,7 @@ function Landing() {
 
                 <div className="items price">
                   <a
-                    class="uk-button uk-button-secondary"
+                    className="uk-button uk-button-secondary"
                     href="https://vimeo.com/325811367"
                     data-caption="Vimeo"
                     rel="noopener noreferrer"
@@ -283,14 +282,20 @@ function Landing() {
         {/* video testing */}
 
         <div>
-          <div className="uk-card uk-card-muted">
-            <div className="uk-inline-clip uk-transition-toggle" tabindex="0">
+          <div
+            className="uk-card uk-card-muted uk-flex "
+            style={{ height: "500px", width: "850px" }}
+          >
+            <div className="uk-inline-clip uk-transition-toggle" tabIndex="0">
               <img src="/Assets/Landing/pro2.jpg" alt="project 2" />
+              <div className="uk-overlay uk-light uk-position-bottom">
+                <h4>Cojo - Block boy</h4>
+              </div>
               <iframe
                 className="uk-transition-fade uk-position-cover"
                 title="youtube testing"
-                width="560"
-                height="315"
+                width="850"
+                height="500"
                 src="https://www.youtube.com/embed/Ot6cTte70p8"
                 frameBorder="0"
                 allow=" autoplay; encrypted-media; "
@@ -300,53 +305,21 @@ function Landing() {
           </div>
         </div>
         <div>
-          <div className="uk-card uk-card-muted uk-flex ">
-            <iframe
-              className="container"
-              title="youtube testing"
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/Ot6cTte70p8"
-              frameBorder="0"
-              allow=" autoplay; encrypted-media; "
-              allowFullScreen
-            />
-            <div className="overTest">
-              <div className="items" />
-              <div className="items head">
-                <p>Cojo – Block Boy</p>
-                <hr />
+          <div
+            className="uk-card uk-card-muted uk-flex "
+            style={{ height: "300px", width: "580px" }}
+          >
+            <div className="uk-inline-clip uk-transition-toggle" tabIndex="0">
+              <img src="/Assets/Landing/pro3.png" alt="project 3" />
+              <div className="uk-overlay uk-light uk-position-bottom">
+                <h4>BR–STOL at Coachella</h4>
               </div>
-
-              <div className="items price">
-                <a
-                  class="uk-button uk-button-secondary"
-                  href="https://www.youtube.com/watch?v=Ot6cTte70p8"
-                  data-caption="Youtube"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  style={{ display: "target-cell" }}
-                >
-                  Youtube
-                </a>
-                <p className="old" />
-                <p className="new" />
-              </div>
-              <div className="items cart">
-                <i className="fa fa-shopping-cart" />
-                <span />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <div className="uk-card">
               <iframe
-                title="testing vimeo video on page"
-                src="https://player.vimeo.com/video/329699071?title=0&byline=0&portrait=0"
-                width="640"
-                height="360"
+                title="testingVimeo"
+                className="uk-transition-fade uk-position-cover"
+                src="https://player.vimeo.com/video/332145760?title=0&byline=0&portrait=0"
+                width="580"
+                height="306"
                 frameBorder="0"
                 allow="autoplay; fullscreen"
                 allowFullScreen

@@ -7,6 +7,7 @@
 body,
 .uk-heading-large,
 li,
+h1,
 h4 {
   font-family: autrefish;
 }
@@ -24,18 +25,6 @@ li {
   cursor: pointer;
 }
 
-.overTest {
-  min-width: 100vh;
-  min-height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 2fr 2fr 1fr;
-  background: white;
-  color: black;
-  opacity: 0.99;
-  transition: all 0.5s;
-  font-family: autrefish;
-}
 .overlay {
   width: 100%;
   height: 100%;
@@ -119,7 +108,8 @@ li {
   opacity: 1;
 }
 
-#mobileNav {
+#mobileNav,
+#autreFish {
   display: none;
 }
 
@@ -128,7 +118,8 @@ li {
 }
 
 @media screen and (max-width: 500px) {
-  #mobileNav {
+  #mobileNav,
+  #autreFish {
     display: block;
   }
   .container {

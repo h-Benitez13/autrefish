@@ -23,7 +23,13 @@ export const Navbar = () => {
 
             {/* About */}
             <li>
-              <Link to="/About" />
+              <Link to="/About">
+                <img
+                  src="/Assets/Landing/aboutIcon.png"
+                  alt="about icon"
+                  width="40px"
+                />
+              </Link>
             </li>
 
             {/* Contact */}
@@ -44,7 +50,7 @@ export const Navbar = () => {
                 <span uk-icon="icon: instagram; ratio: 1.7" />
               </a>
             </li>
-            <li className="uk-logo uk-position-left">
+            <li id="autreFish" className="uk-logo uk-position-left">
               <img
                 src="Assets/Landing/autrefish.png"
                 alt="autrefish logo"
