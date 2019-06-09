@@ -23,9 +23,7 @@ export const Navbar = () => {
 
             {/* About */}
             <li>
-              <Link to="/About">
-                <span uk-icon="icon: info; ratio: 1.7" />
-              </Link>
+              <Link to="/About" />
             </li>
 
             {/* Contact */}
