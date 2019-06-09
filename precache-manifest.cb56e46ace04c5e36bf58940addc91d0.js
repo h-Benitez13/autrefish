@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49b6f6749d5fcdbec67f42ae9b70d531",
+    "revision": "63acf9966830d880b067a07e3fc3e13c",
     "url": "/autrefish/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/autrefish/static/css/2.0158a1d3.chunk.css"
   },
   {
-    "revision": "2d04e85f2c7e4518fc30",
-    "url": "/autrefish/static/css/main.8a8c588d.chunk.css"
+    "revision": "0323b2824d8583d9b0a0",
+    "url": "/autrefish/static/css/main.8c10803a.chunk.css"
   },
   {
     "revision": "e72a23342861f805f5aa",
     "url": "/autrefish/static/js/2.1e03a75b.chunk.js"
   },
   {
-    "revision": "2d04e85f2c7e4518fc30",
-    "url": "/autrefish/static/js/main.9fddc31e.chunk.js"
+    "revision": "0323b2824d8583d9b0a0",
+    "url": "/autrefish/static/js/main.63d569f7.chunk.js"
   },
   {
     "revision": "bb336bb11b4933acb40c",
