@@ -185,9 +185,9 @@ function Landing() {
                 src="https://player.vimeo.com/video/325811367?title=0&byline=0&portrait=0"
                 width="712"
                 height="400"
-                frameborder="0"
+                frameBorder="0"
                 allow="autoplay; fullscreen"
-                allowfullscreen
+                allowFullScreen
               />
             </div>
           </div>
