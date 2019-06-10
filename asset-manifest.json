@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/autrefish/static/css/main.8c10803a.chunk.css",
-    "main.js": "/autrefish/static/js/main.e5175415.chunk.js",
-    "main.js.map": "/autrefish/static/js/main.e5175415.chunk.js.map",
+    "main.js": "/autrefish/static/js/main.a589ad7e.chunk.js",
+    "main.js.map": "/autrefish/static/js/main.a589ad7e.chunk.js.map",
     "runtime~main.js": "/autrefish/static/js/runtime~main.bc43f346.js",
     "runtime~main.js.map": "/autrefish/static/js/runtime~main.bc43f346.js.map",
     "static/css/2.0158a1d3.chunk.css": "/autrefish/static/css/2.0158a1d3.chunk.css",
     "static/js/2.1e03a75b.chunk.js": "/autrefish/static/js/2.1e03a75b.chunk.js",
     "static/js/2.1e03a75b.chunk.js.map": "/autrefish/static/js/2.1e03a75b.chunk.js.map",
     "index.html": "/autrefish/index.html",
-    "precache-manifest.411a2b8ff5c7b6bed1138ed16812e9d5.js": "/autrefish/precache-manifest.411a2b8ff5c7b6bed1138ed16812e9d5.js",
+    "precache-manifest.db50dd49e4551cbc427c165978768c5f.js": "/autrefish/precache-manifest.db50dd49e4551cbc427c165978768c5f.js",
     "service-worker.js": "/autrefish/service-worker.js",
     "static/css/2.0158a1d3.chunk.css.map": "/autrefish/static/css/2.0158a1d3.chunk.css.map",
     "static/css/main.8c10803a.chunk.css.map": "/autrefish/static/css/main.8c10803a.chunk.css.map",
