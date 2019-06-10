@@ -2,7 +2,7 @@
   "name": "autrefish",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://h-Benitez13.github.io/autrefish/",
+  "homepage": "https://autrefish.com",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
