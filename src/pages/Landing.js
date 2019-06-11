@@ -49,7 +49,7 @@ function Landing() {
             style={{
               width: "500px",
               height: "263px",
-              margin: "15px 0px 7px 85px"
+              margin: "25px 0px 7px 85px"
             }}
           >
             <div className="uk-inline-clip uk-transition-toggle" tabIndex="0">
