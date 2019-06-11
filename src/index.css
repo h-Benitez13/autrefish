@@ -55,10 +55,16 @@ li {
   }
 
   #card1 {
-    margin: 7% 0% 50% 5%;
+    margin: 25% 0% 50% 5%;
   }
   #card2 {
-    margin: 50% 25% 0% 1%;
+    margin: 0px;
+  }
+
+  .uk-first-column {
+    padding-top: 40px;
+    margin-top: 45%;
+    margin-right: 0;
   }
 
   #youtubeVid {
