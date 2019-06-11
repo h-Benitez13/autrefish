@@ -2,7 +2,7 @@
   "name": "autrefish",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://h-Benitez13.github.io/autrefish/",
+  "homepage": "https://auterfish.com",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d master build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
