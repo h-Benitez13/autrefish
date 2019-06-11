@@ -22,13 +22,7 @@ function About() {
             style={{ background: "transparent" }}
           >
             <article className="uk-article">
-              <div className="uk-card-title" />
-
               <div className="uk-card-body">
-                <p className="uk-text-lead " style={{ color: "black" }}>
-                  Mission, Objective, Who are we?{" "}
-                </p>
-
                 <p style={{ color: "black" }}>
                   People often advise against falling in love with another’s
                   potential, for focusing on those ideals can result in
@@ -47,8 +41,8 @@ function About() {
                   Our growth will never cease as we strive to forever reimagine
                   how we interact, create and digest visual content. To autre
                   fish, art is an opportunity to synthesize different forms of
-                  expression in order to build community that understands art as
-                  a sensory experience. Owning space in the digital plain as
+                  expression in order to a build community that understands art
+                  as a sensory experience. Owning space in the digital plain as
                   well as in the physical world, autre fish is a beacon of
                   active community engagement, providing innovative perspectives
                   leading the world by example. We are here to push the
