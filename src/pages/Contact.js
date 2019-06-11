@@ -15,12 +15,12 @@ function Contact() {
         <a
           className="uk-position-bottom-center "
           href="mailto:weare@autrefish.com"
+          style={{ marginBottom: "125px" }}
         >
           <button
             id="contactBttn"
             className=" uk-button uk-button-default "
             uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true;"
-            style={{ margin: "0px 50px 100px 0px" }}
           >
             Contact Us!
           </button>
