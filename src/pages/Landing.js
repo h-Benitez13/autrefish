@@ -8,11 +8,7 @@ function Landing() {
       <CardContainer>
         {/* Grid 1 */}
         <div>
-          <div
-            id="card1"
-            className="uk-card uk-card-muted uk-flex uk-position-center uk-margin-bottom"
-            style={{ height: "500px", width: "890px" }}
-          >
+          <div id="card1" className="uk-card uk-position-center ">
             <div className="uk-inline-clip uk-transition-toggle" tabIndex="0">
               <img src="/Assets/Landing/pro2.jpg" alt="Cojo - Block boy" />
               <div className="uk-overlay uk-light uk-position-top">
@@ -43,15 +39,7 @@ function Landing() {
         {/* Grid 2 */}
 
         <div>
-          <div
-            id="card2"
-            className="uk-card uk-card-muted uk-flex"
-            style={{
-              width: "500px",
-              height: "263px",
-              margin: "25px 0px 7px 85px"
-            }}
-          >
+          <div id="card2" className="uk-card uk-card-muted uk-flex">
             <div className="uk-inline-clip uk-transition-toggle" tabIndex="0">
               <img src="/Assets/Landing/pro4.jpg" alt="BR-STOL x new era" />
               <div className="uk-overlay uk-light uk-position-top">
@@ -59,6 +47,7 @@ function Landing() {
               </div>
 
               <iframe
+                id="newEra"
                 title="vimeo- BR-STOL x new era"
                 className="uk-transition-fade uk-position-cover"
                 src="https://player.vimeo.com/video/325809855?title=0&byline=0"
@@ -78,14 +67,7 @@ function Landing() {
         {/* Grid 3 */}
 
         <div>
-          <div
-            className="uk-card uk-card-muted uk-flex"
-            style={{
-              width: "949px",
-              height: "500px",
-              margin: "40px 0px 10px 150px"
-            }}
-          >
+          <div id="card3" className="uk-card uk-card-muted uk-flex">
             <div
               className="uk-inline-clip uk-transition-toggle uk-position-cover"
               tabIndex="0"
@@ -96,6 +78,7 @@ function Landing() {
               </div>
 
               <iframe
+                id="nig"
                 title="vimeo - nig."
                 className="uk-transition-fade uk-position-cover"
                 src="https://player.vimeo.com/video/338146747?title=0&byline=0&portrait=0"
@@ -109,13 +92,7 @@ function Landing() {
           </div>
         </div>
         <div>
-          <div
-            className="uk-card uk-card-muted uk-flex"
-            style={{
-              width: "590px",
-              height: "310px"
-            }}
-          >
+          <div id="card4" className="uk-card uk-card-muted uk-flex">
             <div
               className="uk-inline-clip uk-transition-toggle uk-position-cover"
               tabIndex="0"
@@ -125,7 +102,8 @@ function Landing() {
                 <h4>BR–STOL at Coachella</h4>
               </div>
               <iframe
-                title="testingVimeo"
+                id="coachella"
+                title="BR-STOL at Coachella"
                 className="uk-transition-fade uk-position-cover"
                 src="https://player.vimeo.com/video/332145760?title=0&byline=0&portrait=0"
                 width="590"
@@ -141,14 +119,7 @@ function Landing() {
         {/* Grid 4 */}
 
         <div>
-          <div
-            className="uk-card uk-card-muted uk-flex"
-            style={{
-              width: "600px",
-              height: "338px",
-              margin: "0px 0px 0px 30px"
-            }}
-          >
+          <div id="card5" className="uk-card uk-card-muted uk-flex">
             <div
               className="uk-inline-clip uk-transition-toggle uk-position-cover"
               tabIndex="0"
@@ -159,6 +130,7 @@ function Landing() {
               </div>
 
               <iframe
+                id="NY"
                 title="BR-STOL X NY Sunshine"
                 className="uk-transition-fade uk-position-cover"
                 src="https://player.vimeo.com/video/325811367?title=0&byline=0&portrait=0"
@@ -185,14 +157,7 @@ function Landing() {
           />
         </div>
         <div>
-          <div
-            className="uk-card uk-card-muted uk-flex"
-            style={{
-              width: "500px",
-              height: "281px",
-              margin: "20px 0px 0px 50px"
-            }}
-          >
+          <div id="card6" className="uk-card uk-card-muted uk-flex">
             <div
               className="uk-inline-clip uk-transition-toggle uk-position-cover"
               tabIndex="0"

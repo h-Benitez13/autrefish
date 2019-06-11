@@ -25,7 +25,7 @@ export const Navbar = () => {
             <li>
               <Link to="/About">
                 <img
-                  src="/Assets/Landing/aboutIcon.png"
+                  src="/Assets/Landing/aboutSym.png"
                   alt="about icon"
                   width="40px"
                 />
