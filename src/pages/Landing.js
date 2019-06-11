@@ -9,6 +9,7 @@ function Landing() {
         {/* Grid 1 */}
         <div>
           <div
+            id="card1"
             className="uk-card uk-card-muted uk-flex uk-position-center uk-margin-bottom"
             style={{ height: "500px", width: "890px" }}
           >
@@ -19,6 +20,7 @@ function Landing() {
               </div>
               <iframe
                 className="uk-transition-fade uk-position-cover"
+                id="youtubeVid"
                 title="youtube testing"
                 width="890"
                 height="500"
@@ -32,6 +34,7 @@ function Landing() {
         </div>
         <div>
           <div
+            id="blankCard"
             className="uk-card uk-card-muted uk-flex"
             style={{ height: "450px" }}
           />
@@ -41,6 +44,7 @@ function Landing() {
 
         <div>
           <div
+            id="card2"
             className="uk-card uk-card-muted uk-flex"
             style={{
               width: "500px",
@@ -58,7 +62,7 @@ function Landing() {
                 title="vimeo- BR-STOL x new era"
                 className="uk-transition-fade uk-position-cover"
                 src="https://player.vimeo.com/video/325809855?title=0&byline=0"
-                width="500px"
+                width="500"
                 height="263"
                 frameBorder="0"
                 allow="autoplay; fullscreen"
@@ -68,7 +72,7 @@ function Landing() {
           </div>
         </div>
         <div>
-          <div className="uk-card uk-card-muted uk-flex" />
+          <div id="blankCard" className="uk-card uk-card-muted uk-flex" />
         </div>
 
         {/* Grid 3 */}
@@ -168,10 +172,11 @@ function Landing() {
           </div>
         </div>
         <div>
-          <div className="uk-card" />
+          <div id="blankCard" className="uk-card" />
         </div>
         <div>
           <div
+            id="blankCard"
             className="uk-card uk-card-muted uk-flex"
             style={{
               width: "500px",
@@ -211,7 +216,7 @@ function Landing() {
         </div>
 
         <div>
-          <div className="uk-card" />
+          <div id="blankCard" className="uk-card" />
         </div>
       </CardContainer>
     </Layout>

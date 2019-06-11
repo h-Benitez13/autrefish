@@ -65,7 +65,7 @@ export const Navbar = () => {
       </nav>
       <nav
         id="mobileNav"
-        className="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin"
+        className="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin-bottom"
       >
         <div className="uk-navbar-left">
           <div className="uk-inline">
