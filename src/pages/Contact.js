@@ -7,16 +7,20 @@ function Contact() {
     <Layout>
       <Container>
         <img
-          className="uk-position-center "
           src="/Assets/Landing/autrefishlogo.png"
+          className="uk-position-center"
           alt="autrefish logo"
           style={{ width: "400px", height: "300px" }}
         />
-        <a href="mailto:weare@autrefish.com">
+        <a
+          className="uk-position-bottom-center "
+          href="mailto:weare@autrefish.com"
+        >
           <button
             id="contactBttn"
-            className="uk-position-bottom-center uk-button uk-button-default uk-animation-fade "
-            style={{ marginBottom: "100px" }}
+            className=" uk-button uk-button-default "
+            uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true;"
+            style={{ margin: "0px 50px 100px 0px" }}
           >
             Contact Us!
           </button>

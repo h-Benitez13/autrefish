@@ -1,5 +1,9 @@
 import React from "react";
 
 export const Container = ({ children }) => {
-  return <div className="uk-container uk-container-small">{children}</div>;
+  return (
+    <div className="uk-section uk-section-small" style={{ minHeight: "100vh" }}>
+      {children}
+    </div>
+  );
 };
