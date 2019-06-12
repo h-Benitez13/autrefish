@@ -26,7 +26,7 @@ export const Navbar = () => {
               <Link to="/About">
                 <img
                   src="/Assets/Landing/aboutSym.png"
-                  alt="about icon"
+                  alt="About page icon"
                   width="40px"
                 />
               </Link>
@@ -47,7 +47,11 @@ export const Navbar = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <span uk-icon="icon: instagram; ratio: 1.7" />
+                <img
+                  src="/Assets/Landing/instaIcon.png"
+                  alt="Instagram Icon"
+                  width="40px"
+                />
               </a>
             </li>
             <li id="autreFish" className="uk-logo uk-position-left">
