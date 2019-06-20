@@ -7,7 +7,7 @@ var aboutImg = {
 export const Container = ({ children }) => {
   return (
     <div
-      className="uk-section uk-section-small uk-panel uk-flex uk-height-small uk-position-relative"
+      className="uk-section uk-section-small uk-panel uk-flex uk-height-small uk-position-relative "
       style={aboutImg}
     >
       {children}

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
@@ -9,34 +8,27 @@ export const Navbar = () => {
         className="uk-navbar-container uk-margin-top uk-navbar-transparent"
         uk-sticky="animation: uk-animation-slide-top"
       >
-        <div className="uk-flex uk-flex-center">
+        <div className="uk-flex uk-flex-center ">
           <ul
             className="uk-iconnav uk-dark"
             uk-scrollspy="cls: uk-animation-fade; target: > li ; delay: 300; repeat:true"
           >
-            {/* Home */}
-            <li className="uk-active">
-              <Link to="/Home">
-                <span uk-icon="icon: home; ratio: 1.7" />
-              </Link>
-            </li>
-
             {/* About */}
             <li>
-              <Link to="/About">
-                <img
-                  src="/Assets/Landing/aboutSym.png"
-                  alt="About page icon"
-                  width="40px"
-                />
-              </Link>
+              <img
+                src="/Assets/Landing/aboutSym.png"
+                alt=" About page icon"
+                uk-toggle="#aboutPage"
+                width="40px"
+              />
             </li>
 
             {/* Contact */}
             <li>
-              <Link to="/Contact">
-                <span uk-icon="icon: quote-right; ratio: 1.7" />
-              </Link>
+              <span
+                uk-icon="icon: quote-right; ratio: 1.7"
+                uk-toggle="#contactPage"
+              />
             </li>
 
             {/* Instagram */}
@@ -54,49 +46,50 @@ export const Navbar = () => {
                 />
               </a>
             </li>
-            <li id="autreFish" className="uk-logo uk-position-left">
-              <img
-                src="Assets/Landing/autrefish.png"
-                alt="autrefish logo"
-                style={{
-                  width: "100px",
-                  height: "100px"
-                }}
-              />
+
+            {/* Personal Bios */}
+            <li>
+              <span uk-icon="icon: users; ratio: 1.7" uk-toggle="#bioPage" />
             </li>
           </ul>
         </div>
       </nav>
+
       <nav
         id="mobileNav"
         className="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin-bottom"
       >
         <div className="uk-navbar-left">
           <div className="uk-inline">
-            <span uk-icon="icon: table; ratio: 1.5" />
+            <span uk-icon="icon: table; ratio: 1.5" uk-toggle="#my-id" />
           </div>
 
-          <div uk-dropdown="mode: click">
-            <div className="uk-nav uk-navbar-dropdown-nav uk-navbar-dropdown-width-1">
-              <div
-                className="uk-navbar-dropdown-grid uk-child-width-1-2"
-                uk-grid
-                uk-navbar="boundary-align: true; align: center"
-              >
-                <div>
-                  <ul className="uk-nav uk-navbar-dropdown-nav">
-                    <li className="uk-active uk-nav-header">
-                      <Link to="/Home"> Home</Link>
-                    </li>
-                    <li className="uk-active uk-nav-header">
-                      <Link to="/About">About</Link>
-                    </li>
+          <div id="my-id" uk-offcanvas="mode: none; overlay: false">
+            <div className="uk-offcanvas-bar uk-animation-slide-top">
+              <span
+                className="uk-button uk-offcanvas-close"
+                uk-icon="icon:close;ratio: 1.5"
+              />
 
-                    <li className="uk-active uk-nav-header">
-                      <Link to="/Contact">Contact</Link>
-                    </li>
-                  </ul>
-                </div>
+              <div className="uk-margin-large-top">
+                <ul className="uk-dark uk-grid uk-flex uk-flex-column">
+                  <li>
+                    <h2 className="uk-heading-divider" uk-toggle="#aboutPage">
+                      About
+                    </h2>
+                  </li>
+
+                  <li>
+                    <h2 className="uk-heading-divider" uk-toggle="#contactPage">
+                      Contact
+                    </h2>
+                  </li>
+                  <li>
+                    <h2 className="uk-heading-divider" uk-toggle="#bioPage">
+                      CoFounders
+                    </h2>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
