@@ -51,8 +51,8 @@ function Landing() {
                 title="vimeo- BR-STOL x new era"
                 className="uk-transition-fade uk-position-cover"
                 src="https://player.vimeo.com/video/325809855?title=0&byline=0"
-                width="500"
-                height="263"
+                width="569"
+                height="300"
                 frameBorder="0"
                 allow="autoplay; fullscreen"
                 allowFullScreen
@@ -106,8 +106,8 @@ function Landing() {
                 title="BR-STOL at Coachella"
                 className="uk-transition-fade uk-position-cover"
                 src="https://player.vimeo.com/video/332145760?title=0&byline=0&portrait=0"
-                width="590"
-                height="310"
+                width="400"
+                height="211"
                 frameBorder="0"
                 allow="autoplay; fullscreen"
                 allowFullScreen
