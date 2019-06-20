@@ -2,17 +2,24 @@ import React from "react";
 
 function Contact() {
   return (
-    <div id="contactPage" uk-offcanvas="mode: none;overlay: true">
+    <div id="contactPage" uk-offcanvas="mode: none;overlay: false;">
       <div
         className="uk-offcanvas-bar uk-animation-slide-right"
         style={{ minWidth: "100vw", backgroundColor: "white" }}
       >
-        <div className="uk-container uk-container-small">
+        <button
+          className="uk-button uk-position-top-left"
+          type="button"
+          style={{ color: "black", marginLeft: "10px" }}
+        >
           <span
-            className="uk-button uk-offcanvas-close"
+            className=" uk-offcanvas-close"
             uk-icon="icon: close; ratio: 1.5"
             style={{ color: "black" }}
           />
+        </button>
+
+        <div className="uk-container uk-container-small">
           <img
             src="/Assets/Landing/autrefishlogo.png"
             className="uk-position-center"
