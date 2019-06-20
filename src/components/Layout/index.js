@@ -11,10 +11,10 @@ function Layout({ children }) {
     <div>
       <NavContainer>
         <Navbar />
-        <About />
-        <Contact />
-        <Bio />
       </NavContainer>
+      <About />
+      <Contact />
+      <Bio />
 
       {children}
     </div>

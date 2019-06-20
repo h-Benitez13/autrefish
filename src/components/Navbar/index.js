@@ -5,12 +5,12 @@ export const Navbar = () => {
     <div>
       <nav
         id="webNav"
-        className="uk-navbar-container uk-margin-top uk-navbar-transparent"
+        className="uk-navbar-container uk-margin-top uk-navbar-transparent "
         uk-sticky="animation: uk-animation-slide-top"
       >
-        <div className="uk-flex uk-flex-center ">
+        <div className="uk-flex">
           <ul
-            className="uk-iconnav uk-dark"
+            className="uk-flex-column uk-iconnav uk-dark uk-padding-bottom  "
             uk-scrollspy="cls: uk-animation-fade; target: > li ; delay: 300; repeat:true"
           >
             {/* About */}
@@ -20,6 +20,7 @@ export const Navbar = () => {
                 alt=" About page icon"
                 uk-toggle="#aboutPage"
                 width="40px"
+                style={{ marginBottom: "35px" }}
               />
             </li>
 
@@ -28,13 +29,14 @@ export const Navbar = () => {
               <span
                 uk-icon="icon: quote-right; ratio: 1.7"
                 uk-toggle="#contactPage"
+                style={{ marginBottom: "35px" }}
               />
             </li>
 
             {/* Instagram */}
             <li>
               <a
-                style={{ display: "target-cell" }}
+                style={{ display: "target-cell", marginBottom: "35px" }}
                 href="https://www.instagram.com/autrefish/"
                 rel="noopener noreferrer"
                 target="_blank"
