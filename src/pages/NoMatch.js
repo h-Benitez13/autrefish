@@ -7,7 +7,7 @@ function NoMatch() {
       <div className="uk-container uk-position-center uk-text-center">
         <h1 className="uk-heading-primary uk-light ">404 Page Not Found</h1>
         <img
-          src="/Assets/Landing/lucky_404.jpg"
+          src="/Assets/Landing/crazy_lucky.jpg"
           alt="Lucky"
           width="300px"
           style={{ borderRadius: "10px" }}
