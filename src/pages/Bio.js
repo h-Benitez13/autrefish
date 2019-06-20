@@ -17,10 +17,7 @@ function Bio() {
         {/* Alex Ford: cofounder */}
 
         <article className="uk-comment">
-          <header
-            className="uk-comment-header uk-grid-medium uk-flex-middle"
-            uk-grid
-          >
+          <header className="uk-comment-header uk-grid-medium uk-flex-middle">
             <div className="uk-width-auto">
               <img
                 className="uk-comment-avatar uk-border-circle"
@@ -50,10 +47,7 @@ function Bio() {
 
         {/* Joshua Ciccel: cofounder */}
         <article className="uk-comment">
-          <header
-            className="uk-comment-header uk-grid-medium uk-flex-middle"
-            uk-grid
-          >
+          <header className="uk-comment-header uk-grid-medium uk-flex-middle">
             <div className="uk-width-auto">
               <img
                 className="uk-comment-avatar uk-border-circle"

@@ -40,7 +40,7 @@ h5 {
 }
 
 #card1 {
-  width: 890px;
+  width: 876.016px;
   height: 500px;
 }
 #card2 {
@@ -76,7 +76,7 @@ h5 {
   }
   .uk-first-column {
     padding-top: 20px;
-    margin-top: 45%;
+    margin-top: 55%;
   }
 
   #blankCard {
@@ -87,31 +87,31 @@ h5 {
   #card4,
   #card5,
   #card6 {
-    width: 345px;
-    height: 182px;
+    width: 371px;
+    height: 211px;
   }
 
   #card1 {
-    margin: 25% 45% 50% 0%;
-    width: 345px;
+    margin: 25% 0% 0% 0%;
+    width: 371px;
   }
   #card2 {
-    margin: -1% 30% 10% 0%;
+    margin: 0% 0% 15% -3.5%;
   }
 
   #card3 {
-    margin: 0% 25% 10% 0%;
+    margin: 0% 0% 20% -3.5%;
   }
 
   #card4 {
-    margin: 2% 0% 0% 0%;
+    margin: 0% 0% 20% -3.5%;
   }
 
   #card5 {
-    margin: 10% 15% 10% 0%;
+    margin: -4% 0% 20% -3.5%;
   }
   #card6 {
-    margin: 0% 0% 20% 0%;
+    margin: 0% 0% 50% -3.5%;
   }
 
   #youtubeVid {
@@ -120,8 +120,8 @@ h5 {
   }
 
   iframe {
-    width: 345px;
-    height: 182px;
+    width: 375px;
+    height: 100%;
   }
 }
 
