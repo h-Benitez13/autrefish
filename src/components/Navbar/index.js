@@ -6,12 +6,12 @@ export const Navbar = () => {
       <nav
         id="webNav"
         className="uk-navbar-container uk-margin-top uk-navbar-transparent "
-        uk-sticky="animation: uk-animation-slide-top"
+        uk-sticky="animation: uk-animation-slide-left; show-on-up: true;"
       >
-        <div className="uk-flex">
+        <div>
           <ul
-            className="uk-flex-column uk-iconnav uk-dark uk-padding-bottom  "
-            uk-scrollspy="cls: uk-animation-fade; target: > li ; delay: 300; repeat:true"
+            className="uk-flex-column uk-iconnav uk-dark "
+            uk-scrollspy="cls: uk-animation-fade; target: > li ; delay: 300; repeat:false"
           >
             {/* About */}
             <li>

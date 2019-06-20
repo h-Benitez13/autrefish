@@ -16,10 +16,6 @@ h5 {
   font-family: autrefish;
 }
 
-li {
-  margin-right: 30px;
-}
-
 #contactBttn {
   cursor: pointer;
   transition: 0.2s;
