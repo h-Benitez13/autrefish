@@ -2,10 +2,11 @@ import React from "react";
 
 function About() {
   return (
-    <div id="aboutPage" uk-offcanvas="mode: slide;overlay: true">
+    <div id="aboutPage" uk-offcanvas="mode: none;overlay: false">
       <div
-        className="uk-offcanvas-bar"
+        className="uk-offcanvas-bar uk-animation-slide-left"
         style={{
+          minWidth: "35vw",
           backgroundImage: " linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%)"
         }}
       >

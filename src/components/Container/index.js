@@ -1,11 +1,7 @@
 import React from "react";
 
 export const NavContainer = ({ children }) => {
-  return (
-    <div className="uk-container uk-container-large uk-margin-large-bottom">
-      {children}
-    </div>
-  );
+  return <div className="uk-container uk-container-large ">{children}</div>;
 };
 
 export const CardContainer = ({ children }) => {

@@ -1,6 +1,9 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { CardContainer } from "../components/Container";
+import About from "../pages/About";
+import Contact from "../pages/Contact";
+import Bio from "../pages/Bio";
 
 function Landing() {
   return (
@@ -46,7 +49,7 @@ function Landing() {
                 id="newEra"
                 title="vimeo- BR-STOL x new era"
                 className="uk-transition-fade uk-position-cover"
-                src="https://player.vimeo.com/video/325809855?title=0&byline=0"
+                src="https://player.vimeo.com/video/325809855?title=0&byline=0&portrait=0"
                 width="664"
                 height="350"
                 frameBorder="0"
@@ -172,6 +175,9 @@ function Landing() {
           <div id="blankCard" className="uk-card" />
         </div>
       </CardContainer>
+      <About />
+      <Contact />
+      <Bio />
     </Layout>
   );
 }

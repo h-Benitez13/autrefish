@@ -2,10 +2,11 @@ import React from "react";
 
 function Bio() {
   return (
-    <div id="bioPage" uk-offcanvas="mode:slide; overlay:true; ">
+    <div id="bioPage" uk-offcanvas="mode:none; overlay:false; ">
       <div
         className="uk-offcanvas-bar uk-animation-slide-left"
         style={{
+          minWidth: "35vw",
           backgroundImage: "linear-gradient(to top, #bdcad9 0%, #e1dada 74%)"
         }}
       >

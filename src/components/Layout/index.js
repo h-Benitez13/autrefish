@@ -2,9 +2,6 @@ import React from "react";
 
 import { Navbar } from "../Navbar";
 import { NavContainer } from "../Container";
-import About from "../../pages/About";
-import Contact from "../../pages/Contact";
-import Bio from "../../pages/Bio";
 
 function Layout({ children }) {
   return (
@@ -12,9 +9,6 @@ function Layout({ children }) {
       <NavContainer>
         <Navbar />
       </NavContainer>
-      <About />
-      <Contact />
-      <Bio />
 
       {children}
     </div>

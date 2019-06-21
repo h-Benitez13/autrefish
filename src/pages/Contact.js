@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div id="contactPage" uk-offcanvas="mode: none;overlay: false;">
       <div
-        className="uk-offcanvas-bar uk-animation-slide-right"
+        className="uk-offcanvas-bar uk-animation-slide-left"
         style={{ minWidth: "100vw", backgroundColor: "white" }}
       >
         <button
@@ -31,11 +31,8 @@ function Contact() {
             href="mailto:weare@autrefish.com"
             style={{ marginBottom: "125px" }}
           >
-            <button
-              id="contactBttn"
-              className=" uk-button uk-button-default uk-animation-slide-bottom "
-            >
-              Contact Us!
+            <button id="contactBttn" className=" uk-animation-slide-bottom ">
+              contact us
             </button>
           </a>
         </div>

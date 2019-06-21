@@ -67,9 +67,11 @@ h5 {
   cursor: pointer;
   transition: 0.2s;
   border: 1px solid black;
-  padding: 3px 50px 3px 50px;
+  padding: 7px 50px 7px 50px;
   border-radius: 7px;
   color: black;
+  font-size: 25px;
+  font-family: autrefish;
 }
 
 #contactBttn:hover {
@@ -98,7 +100,7 @@ h5 {
 #card3 {
   width: 949px;
   height: 500px;
-  margin: 270px 0px 70px 150px;
+  margin: 240px 0px 50px 150px;
 }
 #card4 {
   width: 400px;
