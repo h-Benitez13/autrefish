@@ -42,7 +42,7 @@ function Landing() {
         <div>
           <div id="card2" className="uk-card uk-flex ">
             <div className="uk-inline-clip uk-transition-toggle" tabIndex="0">
-              <img src="/Assets/Landing/pro4.jpg" alt="BR-STOL x new era" />
+              <img src="/Assets/Landing/pro4.jpeg" alt="BR-STOL x new era" />
               <div className="uk-overlay uk-light uk-position-top" />
 
               <iframe
