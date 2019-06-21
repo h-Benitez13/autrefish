@@ -7,18 +7,23 @@ function About() {
         className="uk-offcanvas-bar uk-animation-slide-left"
         style={{
           minWidth: "35vw",
-          backgroundImage: " linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%)"
+          backgroundImage:
+            "linear-gradient(to left,#ffffff 0% , #ffffff 0%, #d7e1ec 74%)"
         }}
       >
         <span
           className="uk-button uk-offcanvas-close"
           uk-icon="icon: close; ratio: 1.5"
+          style={{ color: "black" }}
         />
 
-        <h1 className="uk-heading-large uk-heading-primary uk-text-center">
+        <h1
+          className="uk-heading-large uk-heading-primary uk-text-center"
+          style={{ color: "black" }}
+        >
           autre fish
         </h1>
-        <h5>
+        <h5 style={{ color: "black" }}>
           People often advise against falling in love with another’s potential,
           for focusing on those ideals can result in perpetual dissatisfaction.
           Well, our seemingly chimeric belief in the world’s potential is not
@@ -31,7 +36,7 @@ function About() {
           our belief in the potential for a world full of love, community and
           kindness at every corner.
         </h5>
-        <h5>
+        <h5 style={{ color: "black" }}>
           Our growth will never cease as we strive to forever reimagine how we
           interact, create and digest visual content. To autre fish, art is an
           opportunity to synthesize different forms of expression in order to a

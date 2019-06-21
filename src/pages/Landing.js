@@ -71,7 +71,7 @@ function Landing() {
               className="uk-inline-clip uk-transition-toggle uk-position-cover"
               tabIndex="0"
             >
-              <img src="/Assets/Landing/pro1.jpg" alt="nig." />
+              <img src="/Assets/Landing/pro1.jpeg" alt="nig." />
               <div className="uk-overlay uk-light uk-position-top" />
 
               <iframe
