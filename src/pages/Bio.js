@@ -2,7 +2,7 @@ import React from "react";
 
 function Bio() {
   return (
-    <div id="bioPage" uk-offcanvas="mode:none; overlay:false;container: true; ">
+    <div id="bioPage" uk-offcanvas="mode:none; overlay:false;  ">
       <div
         className="uk-offcanvas-bar uk-animation-slide-left"
         style={{

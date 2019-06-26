@@ -6,10 +6,7 @@ export const NavContainer = ({ children }) => {
 
 export const CardContainer = ({ children }) => {
   return (
-    <div
-      id="cardContain"
-      className="uk-section uk-section-default uk-section-small"
-    >
+    <div className="uk-section uk-section-default uk-section-small">
       <div className="uk-container uk-container-medium">
         <div
           className="uk-grid-collapse uk-child-width-1-2@s uk-child-width-1-2@m "
