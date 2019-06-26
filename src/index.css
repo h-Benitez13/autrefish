@@ -118,6 +118,10 @@ h5 {
   margin: 170px 0px 0px 90px;
 }
 
+iframe {
+  width: 100%;
+}
+
 @media screen and (max-width: 500px) {
   #mobileNav,
   #autreFish {
@@ -149,19 +153,19 @@ h5 {
     width: 371px;
   }
   #card2 {
-    margin: 0% 0% 15% -3.5%;
+    margin: 0% 0% 5% -3.5%;
   }
 
   #card3 {
-    margin: 0% 0% 20% -3.5%;
+    margin: 0% 0% 5% -3.5%;
   }
 
   #card4 {
-    margin: 0% 0% 20% -3.5%;
+    margin: 0% 0% 5% -3.5%;
   }
 
   #card5 {
-    margin: -4% 0% 20% -3.5%;
+    margin: 0% 0% 5% -3.5%;
   }
   #card6 {
     margin: 0% 0% 50% -3.5%;

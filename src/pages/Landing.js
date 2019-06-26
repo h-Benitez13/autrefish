@@ -7,13 +7,14 @@ import Bio from "../pages/Bio";
 
 function Landing() {
   return (
-    <Layout>
+    <div>
+      <Layout />
       <CardContainer>
         {/* Grid 1 */}
         <div>
           <div id="card1" className="uk-card uk-position-center ">
             <div className="uk-inline-clip uk-transition-toggle" tabIndex="0">
-              <img src="/Assets/Landing/pro2.jpg" alt="Cojo - Block boy" />
+              <img src="/Assets/Landing/cojo.jpeg" alt="Cojo - Block boy" />
               <div className="uk-overlay uk-light uk-position-top" />
               <iframe
                 className="uk-transition-fade uk-position-cover"
@@ -178,7 +179,7 @@ function Landing() {
       <About />
       <Contact />
       <Bio />
-    </Layout>
+    </div>
   );
 }
 export default Landing;
