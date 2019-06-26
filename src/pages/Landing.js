@@ -1,9 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { CardContainer } from "../components/Container";
-import About from "../pages/About";
-import Contact from "../pages/Contact";
-import Bio from "../pages/Bio";
+import Sidebar from "../components/Sidebar";
 
 function Landing() {
   return (
@@ -176,9 +174,7 @@ function Landing() {
           <div id="blankCard" className="uk-card" />
         </div>
       </CardContainer>
-      <About />
-      <Contact />
-      <Bio />
+      <Sidebar />
     </div>
   );
 }
