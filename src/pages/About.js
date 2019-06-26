@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div id="aboutPage" uk-offcanvas="mode: none;overlay: false">
+    <div id="aboutPage" uk-offcanvas="mode: none; overlay: true;">
       <div
         className="uk-offcanvas-bar uk-animation-slide-left"
         style={{

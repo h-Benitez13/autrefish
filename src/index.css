@@ -145,7 +145,11 @@ iframe {
   }
   #card2,
   #card3,
-  #card4,
+  #card4 {
+    width: 371px;
+    height: 200px;
+  }
+
   #card5,
   #card6 {
     width: 371px;
