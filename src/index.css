@@ -132,6 +132,10 @@ iframe {
     margin-top: 55%;
   }
 
+  .uk-offcanvas-bar {
+    width: 100vw;
+  }
+
   #contactBttn {
     background-color: white;
   }
@@ -153,7 +157,7 @@ iframe {
     width: 371px;
   }
   #card2 {
-    margin: 0% 0% 5% -3.5%;
+    margin: 3% 0% 5% -3.5%;
   }
 
   #card3 {

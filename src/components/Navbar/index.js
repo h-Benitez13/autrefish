@@ -67,7 +67,7 @@ export const Navbar = () => {
           </div>
 
           <div id="my-id" uk-offcanvas="mode: none; overlay: false">
-            <div className="uk-offcanvas-bar uk-animation-slide-top">
+            <div className="uk-offcanvas-bar uk-animation-slide-left">
               <span
                 className="uk-button uk-offcanvas-close"
                 uk-icon="icon:close;ratio: 1.5"
