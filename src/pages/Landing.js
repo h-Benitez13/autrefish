@@ -8,40 +8,42 @@ function Landing() {
     <div>
       <Layout />
       <CardContainer>
-        {/* Grid 1 */}
+        {/* Grid: adidas and blank */}
         <div>
-          <div id="card1" className="uk-card uk-position-center ">
-            <div className="uk-inline-clip uk-transition-toggle" tabIndex="0">
-              <img src="/Assets/Landing/cojo.jpeg" alt="Cojo - Block boy" />
+          <div id="card1" className="uk-card uk-position-center">
+            <div className="uk-inline-clip uk-transition-toggle " tabIndex="0">
+              <img
+                id="adidas"
+                src="/Assets/Landing/adidas.jpeg"
+                alt="BR-STOL x Adidas SS19"
+              />
               <div className="uk-overlay uk-light uk-position-top" />
               <iframe
+                title="BR–STOL x Adidas SS19"
                 className="uk-transition-fade uk-position-cover"
-                id="youtubeVid"
-                title="youtube testing"
-                width="890"
-                height="500"
-                src="https://www.youtube.com/embed/Ot6cTte70p8"
+                src="https://player.vimeo.com/video/344886689?title=0&byline=0&portrait=0"
+                width="900"
+                height="474"
                 frameBorder="0"
-                allow=" autoplay; encrypted-media; "
+                allow="autoplay; fullscreen"
                 allowFullScreen
               />
             </div>
           </div>
         </div>
         <div>
-          <div
-            id="blankCard"
-            className="uk-card uk-card-muted uk-flex"
-            style={{ height: "450px" }}
-          />
+          <div id="blankCard" className="uk-card" style={{ height: "600px" }} />
         </div>
 
-        {/* Grid 2 */}
-
+        {/* Grid: new era & Coachella */}
         <div>
-          <div id="card2" className="uk-card uk-flex ">
+          <div id="card2" className="uk-card ">
             <div className="uk-inline-clip uk-transition-toggle" tabIndex="0">
-              <img src="/Assets/Landing/pro4.jpeg" alt="BR-STOL x new era" />
+              <img
+                id="new"
+                src="/Assets/Landing/pro4.jpeg"
+                alt="BR-STOL x new era"
+              />
               <div className="uk-overlay uk-light uk-position-top" />
 
               <iframe
@@ -59,36 +61,7 @@ function Landing() {
           </div>
         </div>
         <div>
-          <div id="blankCard" className="uk-card uk-card-muted uk-flex" />
-        </div>
-
-        {/* Grid 3 */}
-
-        <div>
           <div id="card3" className="uk-card ">
-            <div
-              className="uk-inline-clip uk-transition-toggle uk-position-cover"
-              tabIndex="0"
-            >
-              <img src="/Assets/Landing/pro1.jpeg" alt="nig." />
-              <div className="uk-overlay uk-light uk-position-top" />
-
-              <iframe
-                id="nig"
-                title="vimeo - nig."
-                className="uk-transition-fade uk-position-cover"
-                src="https://player.vimeo.com/video/338146747?title=0&byline=0&portrait=0"
-                width="949"
-                height="500"
-                frameBorder="0"
-                allow="autoplay; fullscreen"
-                allowFullScreen
-              />
-            </div>
-          </div>
-        </div>
-        <div>
-          <div id="card4" className="uk-card ">
             <div
               className="uk-inline-clip uk-transition-toggle uk-position-cover"
               tabIndex="0"
@@ -110,24 +83,25 @@ function Landing() {
           </div>
         </div>
 
-        {/* Grid 4 */}
+        {/* Grid: cojo & blank */}
 
         <div>
-          <div id="card5" className="uk-card ">
-            <div
-              className="uk-inline-clip uk-transition-toggle uk-position-cover"
-              tabIndex="0"
-            >
-              <img src="/Assets/Landing/pro5.png" alt="BR-STOL X NY Sunshine" />
+          <div id="card4" className="uk-card  ">
+            <div className="uk-inline-clip uk-transition-toggle" tabIndex="0">
+              <img
+                id="cojo"
+                src="/Assets/Landing/pro2.jpg"
+                alt="Cojo - Block boy"
+              />
               <div className="uk-overlay uk-light uk-position-top" />
 
               <iframe
-                id="NY"
-                title="BR-STOL X NY Sunshine"
                 className="uk-transition-fade uk-position-cover"
-                src="https://player.vimeo.com/video/325811367?title=0&byline=0&portrait=0"
-                width="600"
-                height="338"
+                id="youtubeVid"
+                title="youtube testing"
+                src="https://player.vimeo.com/video/338308500?title=0&byline=0&portrait=0"
+                width="890"
+                height="469"
                 frameBorder="0"
                 allow="autoplay; fullscreen"
                 allowFullScreen
@@ -138,25 +112,47 @@ function Landing() {
         <div>
           <div id="blankCard" className="uk-card" />
         </div>
+
+        {/* Grid: NY sunshine & Memoriam Gym */}
         <div>
-          <div
-            id="blankCard"
-            className="uk-card uk-card-muted uk-flex"
-            style={{
-              width: "500px",
-              height: "281px"
-            }}
-          />
+          <div id="card5" className="uk-card  ">
+            <div className="uk-inline-clip uk-transition-toggle" tabIndex="0">
+              <img
+                id="sunshine"
+                src="/Assets/Landing/pro5.png"
+                alt="BR-STOL X NY Sunshine"
+              />
+              <div className="uk-overlay uk-light uk-position-top" />
+
+              <iframe
+                id="NY"
+                title="BR-STOL X NY Sunshine"
+                className="uk-transition-fade uk-position-cover"
+                src="https://player.vimeo.com/video/325811367?title=0&byline=0&portrait=0"
+                width="464"
+                height="271"
+                frameBorder="0"
+                allow="autoplay; fullscreen"
+                allowFullScreen
+              />
+            </div>
+          </div>
         </div>
+
         <div>
           <div id="card6" className="uk-card ">
             <div
               className="uk-inline-clip uk-transition-toggle uk-position-cover"
               tabIndex="0"
             >
-              <img src="/Assets/Landing/pro6.png" alt="BR-STOL Memoriam Gym" />
+              <img
+                id="MemGym"
+                src="/Assets/Landing/pro6.png"
+                alt="BR-STOL Memoriam Gym"
+              />
               <div className="uk-overlay uk-light uk-position-top" />
               <iframe
+                id="gym"
                 title="BR-STOL Memoriam Gym"
                 className="uk-transition-fade uk-position-cover"
                 src="https://player.vimeo.com/video/329699071?title=0&byline=0&portrait=0"
@@ -170,8 +166,30 @@ function Landing() {
           </div>
         </div>
 
+        {/* Grid: nig. */}
+
         <div>
-          <div id="blankCard" className="uk-card" />
+          <div id="card7" className="uk-card ">
+            <div
+              className="uk-inline-clip uk-transition-toggle uk-position-cover"
+              tabIndex="0"
+            >
+              <img id="nig" src="/Assets/Landing/pro1.jpeg" alt="nig." />
+              <div className="uk-overlay uk-light uk-position-top" />
+
+              <iframe
+                id="nigVid"
+                title="vimeo - nig."
+                className="uk-transition-fade uk-position-cover"
+                src="https://player.vimeo.com/video/338146747?title=0&byline=0&portrait=0"
+                width="949"
+                height="500"
+                frameBorder="0"
+                allow="autoplay; fullscreen"
+                allowFullScreen
+              />
+            </div>
+          </div>
         </div>
       </CardContainer>
       <Sidebar />

@@ -4,6 +4,8 @@
   font-family: autrefish;
   src: url("./Font/PoynterText-Regular.ttf");
 }
+
+/* font-family: autrefish */
 body,
 .uk-heading-large,
 .uk-heading-xlarge,
@@ -15,6 +17,8 @@ h4,
 h5 {
   font-family: autrefish;
 }
+
+/* 404 page */
 
 #noMatch {
   min-width: 100vw;
@@ -63,6 +67,8 @@ h5 {
   }
 }
 
+/* contact button */
+
 #contactBttn {
   cursor: pointer;
   transition: 0.2s;
@@ -76,8 +82,10 @@ h5 {
 
 #contactBttn:hover {
   background-color: black;
-  color: white;
+  color: #ffffff;
 }
+
+/* navbar */
 
 #mobileNav,
 #autreFish {
@@ -88,40 +96,54 @@ h5 {
   display: none;
 }
 
+/* card section */
 #card1 {
-  width: 876.016px;
-  height: 500px;
+  width: 900px;
+  height: 474px;
 }
 
 #card2 {
   width: 664px;
   height: 350px;
-  margin: 0px 0px 7px 0px;
 }
+
 #card3 {
-  width: 949px;
-  height: 500px;
-  margin: 200px 0px 50px 130px;
-}
-#card4 {
   width: 400px;
   height: 211px;
-  margin: 170px 0px 0px 150px;
+  margin: 450px 0px 0px 100px;
+}
+
+#card4 {
+  width: 890px;
+  margin: 200px 0px 0px 150px;
+}
+#cojo {
+  width: 100%;
+  height: 469px;
 }
 #card5 {
-  width: 600px;
-  height: 338px;
-  margin: 250px 0px 0px 30px;
+  margin: 170px 0px 0px 50px;
 }
+#sunshine {
+  width: 464px;
+  height: 270px;
+}
+#NY {
+  height: 100%;
+}
+
 #card6 {
   width: 500px;
   height: 281px;
-  margin: 170px 0px 0px 90px;
+  margin: 650px 0px 0px 10px;
 }
 
-iframe {
-  width: 100%;
+#card7 {
+  width: 989px;
+  height: 500px;
+  margin: 350px 0px 20px 100px;
 }
+/* MOBILE RESPONSIVENESS */
 
 @media screen and (max-width: 500px) {
   #mobileNav,
@@ -138,17 +160,34 @@ iframe {
   }
 
   #contactBttn {
-    background-color: white;
+    background-color: #ffffff;
   }
 
   #blankCard {
     display: none;
   }
-  #card2,
+  #card1 {
+    margin: 0px 0px 100px 0px;
+    padding-bottom: 80px;
+  }
+  #cojo {
+    width: 371px;
+    height: 211px;
+  }
+
+  #card2 {
+    width: 380px;
+    height: 211px;
+    margin: 5px 15px 30px -10px;
+  }
+  #new {
+    width: 380px;
+    height: 210px;
+  }
   #card3,
   #card4 {
     width: 371px;
-    height: 200px;
+    height: 211px;
   }
 
   #card5,
@@ -157,16 +196,12 @@ iframe {
     height: 211px;
   }
 
-  #card1 {
-    margin: 25% 0% 0% 0%;
-    width: 371px;
-  }
-  #card2 {
+  #new {
     margin: 3% 0% 5% -3.5%;
   }
 
   #card3 {
-    margin: 0% 0% 5% -3.5%;
+    margin: 0% 0% 3% -3.5%;
   }
 
   #card4 {
@@ -180,13 +215,8 @@ iframe {
     margin: 0% 0% 50% -3.5%;
   }
 
-  #youtubeVid {
-    width: 100%;
-    height: 100%;
-  }
-
   iframe {
-    width: 375px;
+    width: 100%;
     height: 100%;
   }
 }
