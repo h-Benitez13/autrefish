@@ -146,75 +146,78 @@ h5 {
 /* MOBILE RESPONSIVENESS */
 
 @media screen and (max-width: 500px) {
+  /* nav bar */
   #mobileNav,
   #autreFish {
     display: block;
   }
-  .uk-first-column {
-    padding-top: 20px;
-    margin-top: 55%;
-  }
+
+  /* side sections */
 
   .uk-offcanvas-bar {
     width: 100vw;
   }
+  /* contact bttn */
 
   #contactBttn {
     background-color: #ffffff;
   }
-
+  /* remove blank cards */
   #blankCard {
     display: none;
   }
-  #card1 {
-    margin: 0px 0px 100px 0px;
-    padding-bottom: 80px;
+  /* first column */
+  .uk-first-column {
+    margin: 25%;
   }
-  #cojo {
+  /* card Section */
+
+  #card1,
+  #card2,
+  #card3,
+  #card4,
+  #card5,
+  #card6,
+  #card7 {
     width: 371px;
     height: 211px;
   }
 
   #card2 {
-    width: 380px;
-    height: 211px;
-    margin: 5px 15px 30px -10px;
-  }
-  #new {
-    width: 380px;
-    height: 210px;
-  }
-  #card3,
-  #card4 {
-    width: 371px;
-    height: 211px;
-  }
-
-  #card5,
-  #card6 {
-    width: 371px;
-    height: 211px;
-  }
-
-  #new {
-    margin: 3% 0% 5% -3.5%;
+    margin: 190px 0px 0px -100px;
   }
 
   #card3 {
-    margin: 0% 0% 3% -3.5%;
+    margin: -20px 0px 0px -100px;
   }
 
   #card4 {
-    margin: 0% 0% 5% -3.5%;
+    margin: -20px 0px 0px -100px;
+  }
+
+  #cojo {
+    width: 371px;
+    height: 211px;
   }
 
   #card5 {
-    margin: 0% 0% 5% -3.5%;
-  }
-  #card6 {
-    margin: 0% 0% 50% -3.5%;
+    margin: -20px 0px 0px -100px;
   }
 
+  #sunshine {
+    width: 371px;
+    height: 211px;
+  }
+
+  #card6 {
+    margin: -20px 0px 0px -100px;
+  }
+
+  #card7 {
+    margin: -20px 0px 0px -100px;
+  }
+
+  /* iframes */
   iframe {
     width: 100%;
     height: 100%;
