@@ -1,6 +1,6 @@
 import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import Landing from "./pages/Landing";
+import Autre from "./pages/Autre";
 import NoMatch from "./pages/NoMatch";
 
 function App() {
@@ -8,9 +8,9 @@ function App() {
     <Router basename="/">
       <div>
         <Switch>
-          <Route exact path="/" component={Landing} />
-          <Route exact path="/Home" component={Landing} />
-          <Route exact path="/home" component={Landing} />
+          <Route exact path="/" component={Autre} />
+          <Route exact path="/Home" component={Autre} />
+          <Route exact path="/home" component={Autre} />
           <Route component={NoMatch} />
         </Switch>
       </div>

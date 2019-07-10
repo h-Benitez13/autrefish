@@ -63,7 +63,11 @@ export const Navbar = () => {
       >
         <div className="uk-navbar-left">
           <div className="uk-inline">
-            <span uk-icon="icon: table; ratio: 1.5" uk-toggle="#my-id" />
+            <span
+              className="uk-icon-button"
+              uk-icon="icon: table; ratio: 1.5"
+              uk-toggle="#my-id"
+            />
           </div>
 
           <div id="my-id" uk-offcanvas="mode: none; overlay: false">

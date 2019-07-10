@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { CardContainer } from "../components/Container";
-import Sidebar from "../components/Sidebar";
 
 function Landing() {
   return (
@@ -192,7 +191,6 @@ function Landing() {
           </div>
         </div>
       </CardContainer>
-      <Sidebar />
     </div>
   );
 }
